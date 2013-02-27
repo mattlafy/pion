@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @section('content')
 <h1>STARLEAGUE NEWS</h1>
 <h3>THE LATEST STARLEAGUE NEWS UPDATES</h3>
@@ -21,4 +22,20 @@ fringilla. Vivamus sollicitudin eros in augue eleifend rutrum ut ut orci.</div>
 
 
 
+=======
+@section('content')
+<h1>STARLEAGUE NEWS</h1>
+<h3>THE LATEST STARLEAGUE NEWS UPDATES</h3>
+
+@foreach($news_posts as $temp)
+<h4>{{$temp->title}}</h4>
+<div>{{$temp->content}}</div>
+<div> Written by {{$temp->author}} on {{$temp->date_posted}} </div>
+@endforeach
+
+
+
+
+
+>>>>>>> 77bfe8333dbedeb44f63ba830fbf986f5cbcbb74
 @stop
