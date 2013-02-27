@@ -1,5 +1,6 @@
 @section('content')
-<h1>Standings</h1>
+<h1>STARLEAGUE STANDINGS</h1>
+<H3>Current Season, Season One 2013</H3>
 <table class="data">
 	<tr>
 		<td>#</td>
