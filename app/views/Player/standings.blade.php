@@ -34,14 +34,13 @@
 </table>
 <table class="data">
     <tr>
-        <td>Statistic</td>
+        <td></td>
         <td>Definition</td>
         
     </tr>
     <tr>
         <td>MP</td>
         <td>Matches Played</td>
-        
     </tr>
     <tr>
         <td>W</td>
@@ -58,7 +57,6 @@
     <tr>
         <td>L5</td>
         <td>Last 5 Games</td>
-        
     </tr>
     <tr>
         <td>GW</td>
