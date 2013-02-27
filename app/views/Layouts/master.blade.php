@@ -20,7 +20,7 @@
 		</div>
 		<div id="nav">
 			<div class="seperator"></div>
-			<div id="nav-news" class="selected"><a href="/l4/news">NEWS</a></div>
+			<div id="nav-news" class="selected"><a href="/l4/news">NEWS test</a></div>
 			<div class="seperator"></div>
 			<div id="nav-rules"><a href="/l4/rules">RULES</a></div>
 			<div class="seperator"></div>
