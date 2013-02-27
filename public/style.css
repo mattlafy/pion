@@ -1,0 +1,185 @@
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,700,400italic,600,600italic,700italic,900);
+@import url(http://fonts.googleapis.com/css?family=Cuprum:400,400italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,500,500italic,700,700italic,900,900italic);
+
+
+
+body, html{
+  margin: 0px 0px 0px 0px;
+  background-color:#e2e2e2;
+  font-family: cuprum, Arial;
+}
+h1{
+  text-transform:uppercase;
+    font-size:24px;  
+    font-weight:700;
+}
+h2{
+    font-weight:700;
+    text-transform:uppercase;
+    font-size:18px;
+}
+h3{
+    font-weight:600;
+    text-transform:uppercase;
+    font-size:14px;
+    color:#ac1414;
+    margin-bottom:5px;
+}
+#nav a{
+    color: #181715;
+    text-decoration: none;
+}
+#nav a:hover{
+    color:#ac1414;
+  text-decoration: underline;
+}
+table{
+    border-collapse:collapse;
+    
+}
+.clear{ clear: both; }
+.right{ float:right;}
+#pion-nav{
+  background-color: #881b1b;
+  min-width:1300px
+}
+#pion-nav-centre{
+  height:55px;
+  padding: 1px 0px 1px 0px;
+  width:1300px;
+  margin:0px auto;
+    text-align:right;
+}
+ /* PUT LEAGUES BACK WHEN THEY EXIST!!!!!!!!!!! */
+#pion-nav-leagues{
+    display:none;
+}
+#pion-nav-leagues>img{
+  padding-left:15px;
+}
+#pion-nav-logo{
+    float:right;
+    padding-left:120px;
+}
+#site-body{
+  width:1200px;
+  padding-left:100px;
+  margin:40px auto;
+}
+#header{
+  height:139px;
+  width:100%;
+}
+
+#site-logo{
+    top:-32px;
+    left:-88px;
+    position:relative;
+  width: 427px;
+  height: 212px;
+    z-index:0;
+}
+
+#pion-logo{
+    display:none;
+  width:100px;
+  height:30px;
+  border:1px solid blue;
+}
+
+#site-name{
+    display:none;
+  width:300px;
+  height:30px;
+  border:1px solid blue;
+}
+
+#nav{
+  position:relative;
+  z-index:1;
+  height:35px;
+  background-image:url(images/navsml.png);
+  padding-left:20px;
+  padding-right:20px;
+  width:1160px;
+}
+#nav>div{
+  height:21px;
+  float:left;
+  padding:14px 15px 0px 15px;
+  font-weight:700;
+  font-size:14px;
+}
+
+#nav>.nav-right>div{
+  height:21px;
+  float:right;
+  padding:14px 15px 0px 15px;
+  font-weight:700;
+  font-size:14px;
+}
+
+#nav>.seperator, #nav>.nav-right>.seperator{
+  padding:0;
+  height:35px;
+  width:1px;
+  background-image:url(images/navsep.png);
+}
+#nav>.selected{
+  background-image:url(images/navsel.png);
+}
+#body-wrapper{
+    background-color:white;
+}
+#content{
+  width:760px;
+  float:left;
+  padding: 10px 20px 20px 20px;
+}
+#page-title{
+  font-weight:900;
+  font-size:20px;
+}
+#page-headline{
+  font-weight:900;
+  font-size:16px;
+}
+#news-content{
+    font-weight:900;
+    font-size:12px;
+}
+
+#widgets{
+  width:380px;
+  float:right;
+  padding: 10px 20px 20px 0px;
+}
+table.data{
+   border-bottom:1px solid #181715;  
+}
+table.data tr td{
+    padding:0px 6px 0px 6px;
+}
+table.data tr:nth-child(odd)>td{
+    background-color:#eeeeee;
+}
+table.data tr:nth-child(even)>td{
+    background-color:#dddddd;
+}
+table.data tr:first-child>td{
+    background-color:#181715;
+    color:white;
+    padding:4px 20px 4px 20px;
+}
+table tr:first-child td:first-child {
+    -moz-border-radius-topleft:10px;
+    -webkit-border-top-left-radius:10px;
+    border-top-left-radius:10px
+}
+table tr:first-child td:last-child {
+    -moz-border-radius-topright:10px;
+    -webkit-border-top-right-radius:10px;
+    border-top-right-radius:10px
+}

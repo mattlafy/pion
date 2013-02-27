@@ -1,0 +1,35 @@
+@section('content')
+<h1>Standings</h1>
+<table class="data">
+	<tr>
+		<td>#</td>
+		<td>Player</td>
+		<td>Race</td>
+		<td>Team</td>
+		<td>MP</td>
+		<td>W</td>
+		<td>L</td>
+		<td>S</td>
+		<td>L5</td>
+		<td>GW</td>
+		<td>GL</td>
+		<td>+/-</td>
+	</tr>
+	@foreach($players as $p)
+	<tr>
+		<td>{{$p->rank}}</td>
+		<td>{{$p->alias}}</td>
+		<td>{{$p->race}}</td>
+		<td>{{$p->team}}</td>
+		<td>{{$p->matches_played}}</td>
+		<td>{{$p->wins}}</td>
+		<td>{{$p->losses}}</td>
+		<td>{{$p->streak}}</td>
+		<td>{{$p->last_five_games}}</td>
+		<td>{{$p->games_won}}</td>
+		<td>{{$p->games_lost}}</td>
+		<td>{{$p->plus_minus}}</td>
+	</tr>
+	@endforeach
+</table>
+@stop
