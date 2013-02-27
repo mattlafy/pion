@@ -7,7 +7,7 @@
         <td colspan="2">
             Alias
         </td>
-        <td rowspan="3">
+        <td rowspan="2">
             race placeholder
         </td>
     </tr>
@@ -19,7 +19,7 @@
     <tr>
         <td>age</td>
         <td>26</td>
-        <td>league placeholder</td>
+        <td rowspan="3">league placeholder</td>
         
     </tr>
     <tr>
