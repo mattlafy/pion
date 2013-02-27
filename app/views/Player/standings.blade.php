@@ -32,4 +32,48 @@
 	</tr>
 	@endforeach
 </table>
+<table class="data">
+    <tr>
+        <td>Statistic</td>
+        <td>Definition</td>
+        
+    </tr>
+    <tr>
+        <td>MP</td>
+        <td>Matches Played</td>
+        
+    </tr>
+    <tr>
+        <td>W</td>
+        <td>Wins(Matches)</td>
+    </tr>
+    <tr>
+        <td>L</td>
+        <td>Losses(Matches)</td>
+    </tr> 
+    <tr>
+        <td>S</td>
+        <td>Streak</td>
+    </tr>
+    <tr>
+        <td>L5</td>
+        <td>Last 5 Games</td>
+        
+    </tr>
+    <tr>
+        <td>GW</td>
+        <td>Games Won</td>
+    </tr>
+    <tr>
+        <td>GL</td>
+        <td>Games Lost</td>
+    </tr>
+    <tr>
+        <td>+/-</td>
+        <td>Plus/Minus GW/GL</td>
+    </tr>
+    
+    
+
+</table>
 @stop
