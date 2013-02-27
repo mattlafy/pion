@@ -61,7 +61,8 @@ class PlayerController extends BaseController {
 	 */
 	public function show($id)
 	{
-		//
+		$this->layout->content = View::make('Player.show');
+//
 	}
 
 	/**
