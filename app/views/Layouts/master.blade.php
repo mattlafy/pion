@@ -20,7 +20,11 @@
 		</div>
 		<div id="nav">
 			<div class="seperator"></div>
+<<<<<<< HEAD
 			<div id="nav-news" class="selected"><a href="/l4/news">NEWS 6</a></div>
+=======
+			<div id="nav-news" class="selected"><a href="/l4/news">NEWS</a></div>
+>>>>>>> 8f1455bcf002393501a2e39ce47b4a1b576c9859
 			<div class="seperator"></div>
 			<div id="nav-rules"><a href="/l4/rules">RULES</a></div>
 			<div class="seperator"></div>
