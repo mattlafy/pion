@@ -4,7 +4,7 @@ my upcoming matches
 <table class='data'>
   <tr>
      <td>week</td>
-     <td rowspan='3'>maps</td>
+     <td>maps</td>
      <td>date</td>
   </tr>
   <tr>
