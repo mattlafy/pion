@@ -10,7 +10,8 @@ class MatchController extends BaseController {
 	 */
 	public function index()
 	{
-		//
+		$this->layout->content = View::make('Match.list');
+//
 	}
 
 	/**
