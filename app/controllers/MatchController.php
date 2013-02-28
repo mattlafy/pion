@@ -11,9 +11,9 @@ class MatchController extends BaseController {
 	public function index()
 	{
 		$this->layout->content = View::make('Match.list', array('matches'=> array(
-        (object)array('home_team'=>'team1', 'away_team'=>'team2','date'=>'march13/2013','map1'=>'mapname1','map2'=>'mapname2','map3'=>'mapname3','id'=>'303030'),
-        (object)array('home_team'=>'team1', 'away_team'=>'team2','date'=>'march13/2013','map1'=>'mapname1','map2'=>'mapname2','map3'=>'mapname3','id'=>'303030'),
-        (object)array('home_team'=>'team1', 'away_team'=>'team2','date'=>'march13/2013','map1'=>'mapname1','map2'=>'mapname2','map3'=>'mapname3','id'=>'303030'),
+        (object)array('home_team'=>'team1', 'away_team'=>'team2','date'=>'march13/2013','map_1'=>'mapname1','map_2'=>'mapname2','map_3'=>'mapname3','id'=>'303030'),
+        (object)array('home_team'=>'team1', 'away_team'=>'team2','date'=>'march13/2013','map_1'=>'mapname1','map_2'=>'mapname2','map_3'=>'mapname3','id'=>'303030'),
+        (object)array('home_team'=>'team1', 'away_team'=>'team2','date'=>'march13/2013','map_1'=>'mapname1','map_2'=>'mapname2','map_3'=>'mapname3','id'=>'303030'),
         
       )));
 //
