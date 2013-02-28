@@ -36,6 +36,8 @@ fringilla. Vivamus sollicitudin eros in augue eleifend rutrum ut ut orci.', 'aut
 		
 		
 		)));
+            $this->layout->content = View::make('Map.add');
+
 	}
 
 	/**
