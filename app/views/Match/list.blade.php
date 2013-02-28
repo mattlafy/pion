@@ -1,7 +1,7 @@
 @section('content')
 <h1>Schedule</h1>
 
-Week 1
+Week 1<br>
 Search<input type="text" name="search"/>
 <table class="data">
   <tr>
