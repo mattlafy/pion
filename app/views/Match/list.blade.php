@@ -5,7 +5,6 @@
 	<tr>
 		<td colspan="7">Week 1</td>
 		<td>Search<input type="text" name="search"/></td>
-		
 	</tr>
 	<tr>
 		<td>Home Team</td>
@@ -16,7 +15,6 @@
 		<td>Map 2</td>
 		<td>Map 3</td>
 		<td>Preview Match</td>
-		
 	</tr>
 	@foreach($matches as $m)
 	<tr>
@@ -28,7 +26,8 @@
 		<td>{{$m->map_2}}</td>
 		<td>{{$m->map_3}}</td>
 		<td><a href="/l4/match/{{$m->id}}">Preview Match</a></td>
-		
-	</tr>
-	@endforeach
+  </tr>
+  @endforeach
+</table>
+
 @stop
