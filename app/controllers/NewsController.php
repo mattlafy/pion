@@ -36,7 +36,7 @@ fringilla. Vivamus sollicitudin eros in augue eleifend rutrum ut ut orci.', 'aut
 		
 		
 		)));
-            $this->layout->nest('widget1','Map.delete');
+            $this->layout->nest('widget','Map.delete');
             $this->layout->nest('widget2','Map.list');
             $this->layout->nest('widget3','Rules.delete');
 
