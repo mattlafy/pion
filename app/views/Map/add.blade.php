@@ -5,8 +5,7 @@
 	<h6>Map Image<input type="file" name="map_image" /></h6>
 	<p><input type="submit" value="Add Map" name="submit"/></p>
 	</form>
-@stop
 
-@section('test')
-<h2>test</h2>
+@yield('content')
+
 @stop
