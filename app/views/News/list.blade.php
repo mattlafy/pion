@@ -7,3 +7,8 @@
 <div>{{$temp->content}}</div>
 <div> Written by {{$temp->author}} on {{$temp->date_posted}} </div>
 @endforeach
+
+
+@yield('content')
+
+@stop
