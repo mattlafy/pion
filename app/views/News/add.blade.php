@@ -8,4 +8,6 @@
 	<p><input type="submit" value="Post News" name="submit"/></p>
 	<input type="hidden" name="id" value="{{$id}" />
 </form>
+{{-- testing the git reset hard --}}
+<h3>testing reset</h3>
 @stop
