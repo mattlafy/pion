@@ -42,7 +42,7 @@
 			<div id="content">
 				@section('content')
         <div id="empty"></div>
-        @yield_section
+        @show
 			</div>
 			<div id="widgets">widgets go here</div>
 			<div class="clear"></div>
