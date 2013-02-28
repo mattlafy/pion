@@ -6,3 +6,7 @@
 	<p><input type="submit" value="Add Map" name="submit"/></p>
 	</form>
 @stop
+
+@section('test')
+<h2>test</h2>
+@stop
