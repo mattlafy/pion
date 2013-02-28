@@ -9,3 +9,7 @@
 @endforeach
 
 @stop
+
+@section('test')
+<h2>test NEWS</h2>
+@stop
