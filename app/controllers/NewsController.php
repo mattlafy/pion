@@ -10,7 +10,7 @@ class NewsController extends BaseController {
 	 */
 	public function index()
 	{
-        $this->layout->nest('content1','News.list', array('news_posts'=> array(
+        $this->layout->content = View::make('News.list', array('news_posts'=> array(
 		
 		(object)array('title'=>'SITE LAUNCH', 'content'=> 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas, est eget commodo dapibus, augue urna pretium purus,
 et consequat leo nulla in mauris. Suspendisse eleifend elementum nunc nec tincidunt. In cursus, massa et fringilla egestas, nisi 
@@ -36,7 +36,9 @@ fringilla. Vivamus sollicitudin eros in augue eleifend rutrum ut ut orci.', 'aut
 		
 		
 		)));
-            $this->layout->nest('content2','Map.add');
+            $this->layout->nest('widget1','Map.delete');
+            $this->layout->nest('widget2','Map.list');
+            $this->layout->nest('widget3','Rules.delete');
 
 	}
 

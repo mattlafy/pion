@@ -41,10 +41,12 @@
 		<div id='body-wrapper'>
 			<div id="content">
 				@section('content')
-        <div id="empty"></div>
         @show
 			</div>
-			<div id="widgets">widgets go here</div>
+			<div id="widgets">
+				@section('widgets')
+        @show
+      </div>
 			<div class="clear"></div>
 		</div>
 	</div>
