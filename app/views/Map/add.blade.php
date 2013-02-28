@@ -1,4 +1,5 @@
 @section('content')
+@parent
 <h1>Add Map</h1>
 <form method="get">
 	<h6>Map Name<input type="text" name="map_name" /></h6>
@@ -6,6 +7,4 @@
 	<p><input type="submit" value="Add Map" name="submit"/></p>
 	</form>
 
-@yield('content')
-
-@stop
+@yield_section

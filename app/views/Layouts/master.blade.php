@@ -40,7 +40,9 @@
 		</div>
 		<div id='body-wrapper'>
 			<div id="content">
-				@yield('content')
+				@section('content')
+        <div id="empty"></div>
+        @yield_section
 			</div>
 			<div id="widgets">widgets go here</div>
 			<div class="clear"></div>
