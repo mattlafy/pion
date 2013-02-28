@@ -20,7 +20,8 @@ class MapController extends BaseController {
 	 */
 	public function create()
 	{
-		//
+    $this->layout->content = View::make('Map.add');
+//
 	}
 
 	/**
