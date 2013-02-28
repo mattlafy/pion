@@ -8,9 +8,4 @@
 <div> Written by {{$temp->author}} on {{$temp->date_posted}} </div>
 @endforeach
 
-
-@parent
-
-
-
 @stop

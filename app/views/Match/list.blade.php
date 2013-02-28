@@ -6,6 +6,12 @@ Search<input type="text" name="search"/>
 <table class="data">
   <tr>
 		<td>Home Team</td>
+	@foreach($matches as $m)
+	<tr>
+		<td>{{$m->home_team}}</td>
+		<td></td>
+		<td>{{$m->away_team}}</td>
+		<td>{{$m->date}}<
 		<td>vs</td>
 		<td>Away Team</td>
 		<td>Date</td>
@@ -13,13 +19,7 @@ Search<input type="text" name="search"/>
 		<td>Map 2</td>
 		<td>Map 3</td>
 		<td>Preview Match</td>
-	</tr>
-	@foreach($matches as $m)
-	<tr>
-		<td>{{$m->home_team}}</td>
-		<td></td>
-		<td>{{$m->away_team}}</td>
-		<td>{{$m->date}}</td>
+	</tr>/td>
 		<td>{{$m->map_1}}</td>
 		<td>{{$m->map_2}}</td>
 		<td>{{$m->map_3}}</td>
@@ -27,5 +27,4 @@ Search<input type="text" name="search"/>
   </tr>
   @endforeach
 </table>
-
 @stop
