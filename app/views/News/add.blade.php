@@ -8,5 +8,6 @@
 	<p><input type="submit" value="Post News" name="submit"/></p>
 	<input type="hidden" name="id" value="{{$id}" />
 </form>
-<h4>test 2</h4>
+
+<h3>test 4</h3>
 @stop
