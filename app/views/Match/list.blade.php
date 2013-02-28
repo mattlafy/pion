@@ -1,12 +1,10 @@
 @section('content')
 <h1>Schedule</h1>
 
+Week 1
+Search<input type="text" name="search"/>
 <table class="data">
-	<tr>
-		<td colspan="7">Week 1</td>
-		<td>Search<input type="text" name="search"/></td>
-	</tr>
-	<tr>
+  <tr>
 		<td>Home Team</td>
 		<td>vs</td>
 		<td>Away Team</td>
