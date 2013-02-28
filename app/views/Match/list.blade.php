@@ -27,7 +27,7 @@
 		<td>{{$m->map_1}}</td>
 		<td>{{$m->map_2}}</td>
 		<td>{{$m->map_3}}</td>
-		<td><a href="{{$m->link}}">Preview Match</a></td>
+		<td><a href="/l4/match/{{$m->id}}">Preview Match</a></td>
 		
 	</tr>
 	@endforeach
