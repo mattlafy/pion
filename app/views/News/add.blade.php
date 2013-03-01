@@ -1,4 +1,5 @@
-@section('content')
+@section('widgets')
+@parent
 <h1>Add News</h1>
 <form action="addnews.php" method="post">
 	<h6>Topic <input type="textarea" name="topic" value="{{$topic}}" /></h6>

@@ -40,6 +40,7 @@ fringilla. Vivamus sollicitudin eros in augue eleifend rutrum ut ut orci.', 'aut
             $this->layout->nest('widget2','Map.list');
             $this->layout->nest('widget3','Rules.delete');
             $this->layout->nest('widget3','Match.w_list');
+            $this->layout->nest('widget3','News.add');
 	}
 
 	/**
