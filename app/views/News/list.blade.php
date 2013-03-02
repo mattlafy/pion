@@ -1,3 +1,4 @@
+@section('news_tab') selected @stop
 @section('content')
 @parent
 <h1>STARLEAGUE NEWS</h1>
