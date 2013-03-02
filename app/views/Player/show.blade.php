@@ -1,3 +1,5 @@
+@section('players_tab') selected 
+@stop
 @section('content')
 <table>
     <tr>
