@@ -4,7 +4,9 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,500,500italic,700,700italic,900,900italic);
 
 
-
+html{
+  overflow-x: scroll;
+}
 body, html{
   margin: 0px 0px 0px 0px;
   background-color:#e2e2e2;
