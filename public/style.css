@@ -5,7 +5,7 @@
 
 
 html{
-  overflow-x: scroll;
+  overflow-y: scroll;
 }
 body, html{
   margin: 0px 0px 0px 0px;
