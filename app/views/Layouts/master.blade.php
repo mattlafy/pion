@@ -20,21 +20,21 @@
 		</div>
 		<div id="nav">
 			<div class="seperator"></div>
-			<div id="nav-news" class="selected"><a href="/l4/news">NEWS</a></div>
+			<div id="nav-news" class="@yield('news_tab')"><a href="/l4/news">NEWS</a></div>
 			<div class="seperator"></div>
-			<div id="nav-rules"><a href="/l4/rules">RULES</a></div>
+			<div id="nav-rules" class="@yield('rules_tab')"><a href="/l4/rules">RULES</a></div>
 			<div class="seperator"></div>
-			<div id="nav-players"><a href="/l4/player">PLAYERS</a></div>
+			<div id="nav-players" class="@yield('players_tab')"><a href="/l4/player">PLAYERS</a></div>
 			<div class="seperator"></div>
-			<div id="nav-schedule"><a href="/l4/match">SCHEDULE</a></div>
+			<div id="nav-schedule" class="@yield('schedule_tab')"><a href="/l4/match">SCHEDULE</a></div>
 			<div class="seperator"></div>
-			<div id="nav-standings"><a href="/l4/standings">STANDINGS</a></div>
+			<div id="nav-standings" class="@yield('standings_tab')"><a href="/l4/standings">STANDINGS</a></div>
 			<div class="seperator"></div>
 			<nav class="nav-right">
 				<div class="seperator"></div>
-				<div id="nav-login">LOGIN</div>
+				<div id="nav-login" class="@yield('login_tab')">LOGIN</div>
 				<div class="seperator"></div>
-				<div id="nav-register"><a href="/l4/player/create">REGISTER</a></div>
+				<div id="nav-register" class="@yield('register_tab')"><a href="/l4/player/create">REGISTER</a></div>
 				<div class="seperator"></div>
 			</nav>
 		</div>
