@@ -1,3 +1,4 @@
+@section('register_tab') selected @stop
 @section('content')
 <h1>User Registration</h1>
 <h3>Personal Information</h3>
