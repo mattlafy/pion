@@ -4,8 +4,8 @@
 <h3>Search <input type="text" name="search"/></h3>
 <table class="data">
 	<tr>
-		<td>Name</td>
 		<td>Alias</td>
+		<td>Name</td>
 		<td>Race</td>
 		<td>Team</td>
 		<td>Country</td>
@@ -15,8 +15,8 @@
 	</tr>
 	@foreach($players as $p)
 	<tr>
+		<td>{{$p-><a href="/l4/player/{{$p->alias}}">alias}}</a></td>
 		<td>{{$p->name}}</td>
-		<td>{{$p->alias}}</td>
 		<td>{{$p->race}}</td>
 		<td>{{$p->team}}</td>
 		<td>{{$p->country}}</td>
