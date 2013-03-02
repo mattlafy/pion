@@ -15,7 +15,7 @@
 	</tr>
 	@foreach($players as $p)
 	<tr>
-		<td>{{$p-><a href="/l4/player/{{$p->alias}}">alias}}</a></td>
+		<td><a href="/l4/player/{{$p->alias}}">{{$p->alias}}</a></td>
 		<td>{{$p->name}}</td>
 		<td>{{$p->race}}</td>
 		<td>{{$p->team}}</td>
