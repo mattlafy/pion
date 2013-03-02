@@ -1,3 +1,4 @@
+@section('schedule_tab') selected @stop
 @section('content')
 <h1>Schedule</h1>
 
