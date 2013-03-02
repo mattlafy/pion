@@ -129,7 +129,7 @@ table{
   width:1px;
   background-image:url(images/navsep.png);
 }
-#nav>.selected{
+#nav .selected{
   background-image:url(images/navsel.png);
 }
 #body-wrapper{
