@@ -1,3 +1,4 @@
+@section('players_tab') selected @stop
 @section('content')
 <h1>Players</h1>
 <h3>Search <input type="text" name="search"/></h3>
