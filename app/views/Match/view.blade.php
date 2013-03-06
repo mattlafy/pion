@@ -5,7 +5,7 @@
 		<td rowspan="10"><img src="images/teams/{{$player1->team_id}}.png" alt="Player 1 Team Logo" /></td>
 		<td rowspan="10"><img src="images/players/{{$player1->id}}.png" alt="Player 1 Avatar" /></td>
 		<td class="name right">{{$player1->first_name}}</td>
-		<td colspan="2">vs</td>
+		<td class="title center" colspan="2">vs</td>
 		<td class="name">{{$player2->first_name}}</td>
 		<td rowspan="10"><img src="images/players/{{$player2->id}}.png" alt="Player 2 Avatar" /></td>
 		<td rowspan="10"><img src="images/teams/{{$player2->team_id}}.png" alt="Player 2 Team Logo" /></td>
