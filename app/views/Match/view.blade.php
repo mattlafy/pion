@@ -14,10 +14,10 @@
 		<td class="name right">{{$player1->last_name}}</td>
 		<td colspan="2" rowspan="10">
 			<table>
-				<tr><td class="map_table">Map1</td><td class="map_table">Map2</td><td class="map_table">Map3</td></tr>
-				<tr><td class="center" colspan="3"><img src="images/maps/{{$maps->map1}}.png" Alt="Map1"></td></tr>
-				<tr><td class="map_table">Map4</td><td class="map_table">Map5</td><td class="map_table">Map6</td></tr>
-				<tr><td></td><td class="map_table">Map7</td><td></td></tr>
+				<tr><td class="map_table center">Map1</td><td class="map_table center">Map2</td><td class="map_table center">Map3</td></tr>
+				<tr><td class="center center" colspan="3"><img src="images/maps/{{$maps->map1}}.png" Alt="Map1"></td></tr>
+				<tr><td class="map_table center">Map4</td><td class="map_table center">Map5</td><td class="map_table center">Map6</td></tr>
+				<tr><td></td><td class="map_table center">Map7</td><td></td></tr>
 			</table>
 		</td>
 		<td class="name">{{$player2->last_name}}</td>

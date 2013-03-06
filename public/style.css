@@ -235,4 +235,5 @@ table tr:first-child td:last-child {
 }
 #match_preview .map_table{
   font-size:10px;
+  font-weight:300;
 }
