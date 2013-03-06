@@ -222,14 +222,14 @@ table tr:first-child td:last-child {
 
 #match_preview .stat{
   color:#black;
-  font-size:16px;
+  font-size:18px;
   text-transform:uppercase;
   font-weight:900;
 }
 
 #match_preview .title{
   color:#black;
-  font-size:18px;
+  font-size:20px;
   font-weight:700;
   text-transform:uppercase;
 }
