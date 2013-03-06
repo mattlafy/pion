@@ -233,3 +233,6 @@ table tr:first-child td:last-child {
   font-weight:700;
   text-transform:uppercase;
 }
+#match_preview .map_table{
+  font-size:10px;
+}
