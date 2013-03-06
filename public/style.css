@@ -193,7 +193,7 @@ table tr:first-child td:last-child {
 }
 #match_preview .name{
   color:#a9a9a9;
-  font-size:14px;
+  font-size:16px;
   text-transform:uppercase;
   
   
@@ -228,7 +228,7 @@ table tr:first-child td:last-child {
 
 #match_preview .title{
   color:#black;
-  font-size:14px;
+  font-size:20px;
   font-weight:700;
   text-transform:uppercase;
 }
