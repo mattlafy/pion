@@ -2,7 +2,7 @@
 @stop
 @section('content')
 @foreach($players as $p)
-<table>
+<table id="player_bio">
     <tr>
         <td rowspan="5">
             picture
