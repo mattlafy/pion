@@ -64,19 +64,19 @@
 		<td class="title center" colspan="2">Race</td>
 	</tr>
 	<tr>
-		<td><img src="images/countries/{{$player1->country}}.png" alt="Player 1 flag" /></td>
+		<td class="center"><img src="images/countries/{{$player1->country}}.png" alt="Player 1 flag" /></td>
 		<td class="title center" colspan="2">Country</td>
-		<td><img src="images/countries/{{$player2->country}}.png" alt="Player 2 flag" /></td>
+		<td class="center"><img src="images/countries/{{$player2->country}}.png" alt="Player 2 flag" /></td>
 	</tr>
 	<tr>
-		<td class="stat">{{$player1->season_record}}</td>
+		<td class="stat center">{{$player1->season_record}}</td>
 		<td class="title center" colspan="2">Season Record</td>
-		<td class="stat">{{$player2->season_record}}</td>
+		<td class="stat center">{{$player2->season_record}}</td>
 	</tr>
 	<tr>
-		<td class="stat">{{$player1->streak}}</td>
+		<td class="stat center">{{$player1->streak}}</td>
 		<td class="title center" colspan="2">streak</td>
-		<td class="stat">{{$player2->streak}}</td>
+		<td class="stat center">{{$player2->streak}}</td>
 	</tr>
 	<!--
 	<tr>
