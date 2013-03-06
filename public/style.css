@@ -188,7 +188,7 @@ table tr:first-child td:last-child {
 #match_preview .name{
   color:#a9a9a9;
   font-size:14px;
-  
+  text-transform:uppercase;
   
   
   
