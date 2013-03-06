@@ -222,3 +222,6 @@ table tr:first-child td:last-child {
 .right{
 text-align:right;  
 }
+.center, .centre{
+ text-align:center; 
+}

@@ -23,12 +23,12 @@
 		<td class="name">{{$player2->last_name}}</td>
 	</tr>
 	<tr>
-		<td class="alias right">{{$player1->alias}}</td>
-		<td class="alias">{{$player2->alias}}</td>
+		<td class="alias center">{{$player1->alias}}</td>
+		<td class="alias center">{{$player2->alias}}</td>
 	</tr>
 	<tr>
-		<td class="stat">{{$player1->career_record}}</td>
-		<td class="stat">{{$player2->career_record}}</td>
+		<td class="stat center">{{$player1->career_record}}</td>
+		<td class="stat center">{{$player2->career_record}}</td>
 	</tr>
 	<tr>
 		<td class="bio_title right">Team</td>
@@ -65,17 +65,17 @@
 	</tr>
 	<tr>
 		<td><img src="images/countries/{{$player1->country}}.png" alt="Player 1 flag" /></td>
-		<td class="title" colspan="2">Country</td>
+		<td class="title center" colspan="2">Country</td>
 		<td><img src="images/countries/{{$player2->country}}.png" alt="Player 2 flag" /></td>
 	</tr>
 	<tr>
 		<td class="stat">{{$player1->season_record}}</td>
-		<td class="title" colspan="2">Season Record</td>
+		<td class="title center" colspan="2">Season Record</td>
 		<td class="stat">{{$player2->season_record}}</td>
 	</tr>
 	<tr>
 		<td class="stat">{{$player1->streak}}</td>
-		<td class="title" colspan="2">streak</td>
+		<td class="title center" colspan="2">streak</td>
 		<td class="stat">{{$player2->streak}}</td>
 	</tr>
 	<!--
