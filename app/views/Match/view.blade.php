@@ -61,7 +61,7 @@
 		<td rowspan="5" colspan="2"><!--Keys to Victory--></td>
 	</tr>
 	<tr>
-		<td class="title" colspan="2">Race</td>
+		<td class="title center" colspan="2">Race</td>
 	</tr>
 	<tr>
 		<td><img src="images/countries/{{$player1->country}}.png" alt="Player 1 flag" /></td>
