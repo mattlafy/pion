@@ -1,6 +1,7 @@
 @section('players_tab') selected 
 @stop
 @section('content')
+@foreach($players as $p)
 <table>
     <tr>
         <td rowspan="5">
@@ -10,7 +11,7 @@
             Alias
         </td>
         <td rowspan="2">
-            race placeholder
+            <img src="/l4/images/races/{{$player->race}}.png" alt="Player Race" />
         </td>
     </tr>
     <tr>
@@ -33,5 +34,5 @@
         <td>whateverteam</td>
     </tr>
 </table>
-
+@endforeach
 @stop
