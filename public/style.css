@@ -219,3 +219,6 @@ table tr:first-child td:last-child {
   text-transform:uppercase;
   font-weight:900;
 }
+.right{
+text-align:right;  
+}
