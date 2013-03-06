@@ -210,13 +210,13 @@ table tr:first-child td:last-child {
 
 #match_preview .bio_title{
   color:#a9a9a9;
-  font-size:12px;
+  font-size:10px;
   text-transform:uppercase;
 }
 
 #match_preview .bio_info{
   color:#black;
-  font-size:12px;
+  font-size:10px;
   text-transform:uppercase; 
 }
 
