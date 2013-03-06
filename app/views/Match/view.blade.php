@@ -27,7 +27,7 @@
 		<td>{{$player2->alias}}</td>
 	</tr>
 	<tr>
-		<td>{{$player1->caree_record}}</td>
+		<td>{{$player1->career_record}}</td>
 		<td>{{$player2->career_record}}</td>
 	</tr>
 	<tr>
