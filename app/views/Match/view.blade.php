@@ -56,8 +56,8 @@
 	</tr>
 	<tr>
 		<td rowspan="5" colspan="2"><!--Keys to Victory--></td>
-		<td rowspan="2"><img src="/l4/images/races/{{$player1->race}}.png" alt="Player 1 Race" /></td>
-		<td rowspan="2"><img src="/l4/images/races/{{$player2->race}}.png" alt="Player 2 Race" /></td>
+		<td class="center" rowspan="2"><img src="/l4/images/races/{{$player1->race}}.png" alt="Player 1 Race" /></td>
+		<td class="center" rowspan="2"><img src="/l4/images/races/{{$player2->race}}.png" alt="Player 2 Race" /></td>
 		<td rowspan="5" colspan="2"><!--Keys to Victory--></td>
 	</tr>
 	<tr>
