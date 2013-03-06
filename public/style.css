@@ -29,6 +29,12 @@ h3{
     color:#ac1414;
     margin-bottom:5px;
 }
+.right{
+text-align:right;  
+}
+.center, .centre{
+ text-align:center; 
+}
 #nav a{
     color: #181715;
     text-decoration: none;
@@ -219,9 +225,10 @@ table tr:first-child td:last-child {
   text-transform:uppercase;
   font-weight:900;
 }
-.right{
-text-align:right;  
-}
-.center, .centre{
- text-align:center; 
+
+#match_preview .title{
+  color:#black;
+  font-size:14px;
+  font-weight:700;
+  text-transform:uppercase;
 }
