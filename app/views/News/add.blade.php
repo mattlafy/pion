@@ -1,3 +1,4 @@
+@include('Layouts.data')
 @section('widgets')
 @parent
 <h1>Add News{{$root}}</h1>

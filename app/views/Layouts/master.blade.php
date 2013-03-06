@@ -1,4 +1,4 @@
-{{$root='/l4'}}<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="/l4/style.css" />
