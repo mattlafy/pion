@@ -15,7 +15,7 @@
 		<td colspan="2" rowspan="10">
 			<table>
 				<tr><td>Map1</td><td>Map2</td><td>Map3</td></tr>
-				<tr><td colspan="3"><img src="images/maps/{{$maps->map1}}.png" Alt="Map1"></td></tr>
+				<tr><td class="center" colspan="3"><img src="images/maps/{{$maps->map1}}.png" Alt="Map1"></td></tr>
 				<tr><td>Map4</td><td>Map5</td><td>Map6</td></tr>
 				<tr><td></td><td>Map7</td><td></td></tr>
 			</table>
