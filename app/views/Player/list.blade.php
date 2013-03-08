@@ -18,8 +18,8 @@
 		<td><a href="/l4/player/{{$p->alias}}">{{$p->alias}}</a></td>
 		<td>{{$p->first_name}}{{$p->last_name}}</td>
 		<td>{{$p->race}}</td>
-		<td>{{$p->team}}</td>
-		<td>{{$p->country_id}}</td>
+		<td>{{$p->team->name}}</td>
+		<td>{{$p->country->name}}</td>
 		<td>{{$p->rank}}</td>
 	</tr>
 	@endforeach
