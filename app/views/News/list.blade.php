@@ -7,7 +7,7 @@
 @foreach($news_posts as $news)
 <h4>{{$news->topic}}</h4>
 <div>{{$news->content}}</div>
-<div> Written by {{$news->author}} on {{date('l F jS Y', strtotime$news->created_at))}} </div>
+<div> Written by {{$news->author}} on {{date('l F jS Y', strtotime($news->created_at))}} </div>
 {{$news}}
 {{$news->postedBy()->first()}}
 @endforeach
