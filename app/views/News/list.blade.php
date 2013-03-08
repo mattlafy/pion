@@ -8,5 +8,7 @@
 <h4>{{$news->title}}</h4>
 <div>{{$news->content}}</div>
 <div> Written by {{$news->author}} on {{$news->date_posted}} </div>
+<pre>{$news}</pre>
+<pre>{$news->posted by}</pre>
 @endforeach
 @stop
