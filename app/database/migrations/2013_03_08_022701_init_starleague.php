@@ -29,7 +29,8 @@ class InitStarleague extends Migration {
       $table->enum('race', array('protoss', 'terran', 'zerg'))->nullable();
       $table->boolean('has_picture');
       $table->date('date_of_birth')->nullable();
-      $table->integer('country')->nullable();
+      $table->integer('country_id')->nullable();
+      $table->foreign('country_id')->references('id')->on('countries');
       $table->string('city')->nullable();
       $table->string('province')->nullable();
       $table->string('character_name')->nullable();
@@ -89,7 +90,7 @@ class InitStarleague extends Migration {
       $table->timestamps();
       $table->string('name');
     });
-    Schema::create('country', function($table){
+    Schema::create('countries', function($table){
       $table->increments('id');
       $table->timestamps();
       $table->string('name');
@@ -116,6 +117,7 @@ class InitStarleague extends Migration {
     });
     Schema::table('players', function($table){
       $table->dropForeign('players_team_id_foreign');
+      $table->dropForeign('players_country_id_foreign');
     });
 
     Schema::drop('players');
@@ -126,6 +128,7 @@ class InitStarleague extends Migration {
     Schema::drop('weeks');
     Schema::drop('matches');
     Schema::drop('maps');
+    Schema::drop('countries');
 	}
   
 }

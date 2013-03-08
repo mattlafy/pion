@@ -11,15 +11,15 @@ class DatabaseSeeder extends Seeder {
 	{
 		// $this->call('UserTableSeeder'=>'1',
     
-    DB::table('players')->delete();
-    DB::table('teams')->delete();
     DB::table('rules')->delete();
     DB::table('news')->delete();
     DB::table('maps')->delete();
     DB::table('matches')->delete();
     DB::table('weeks')->delete();
     DB::table('seasons')->delete();
-
+    DB::table('players')->delete();
+    DB::table('teams')->delete();
+    DB::table('country')->delete();
     
     Map::create(array('name'=>'north america',));
     Map::create(array('name'=>'south america',));
@@ -43,7 +43,7 @@ class DatabaseSeeder extends Seeder {
       'race'=>'zerg', //'protoss', 'terran', 'zerg'
       'has_picture'=>false,
       'date_of_birth'=>'1992-02-02',
-      'country'=>1,
+      'country_id'=>1,
       'city'=>'onelane',
       'province'=>'lasdf',
       'character_name'=>'nicco',
@@ -60,7 +60,7 @@ class DatabaseSeeder extends Seeder {
       'race'=>'terran', //'protoss', 'terran', 'zerg'
       'has_picture'=>true,
       'date_of_birth'=>'1973-01-30',
-      'country'=>'2',
+      'country_id'=>'2',
       'city'=>'Twotown',
       'province'=>'twintario',
       'character_name'=>'lafy',
