@@ -11,6 +11,11 @@ class InitStarleague extends Migration {
 	 */
 	public function up()
 	{
+    Schema::create('teams', function($table){
+      $table->increments('id');
+      $table->string('name');
+      $table->boolean('has_image');
+    });
 		Schema::create('players', function($table){
       $table->increments('id');
       $table->timestamps();
@@ -30,11 +35,6 @@ class InitStarleague extends Migration {
       $table->string('character_code')->nullable();
       $table->integer('team_id')->nullable();
       $table->foreign('team_id')->references('id')->on('teams');
-    });
-    Schema::create('teams', function($table){
-      $table->increments('id');
-      $table->string('name');
-      $table->boolean('has_image');
     });
     Schema::create('rules', function($table){
       $table->increments('id');
