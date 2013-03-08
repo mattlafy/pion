@@ -17,6 +17,11 @@ class InitStarleague extends Migration {
       $table->string('name');
       $table->boolean('has_image');
     });
+    Schema::create('countries', function($table){
+      $table->increments('id');
+      $table->timestamps();
+      $table->string('name');
+    });
 		Schema::create('players', function($table){
       $table->increments('id');
       $table->timestamps();
@@ -86,11 +91,6 @@ class InitStarleague extends Migration {
       $table->integer('winner')->nullable();
     });
     Schema::create('maps', function($table){
-      $table->increments('id');
-      $table->timestamps();
-      $table->string('name');
-    });
-    Schema::create('countries', function($table){
       $table->increments('id');
       $table->timestamps();
       $table->string('name');
