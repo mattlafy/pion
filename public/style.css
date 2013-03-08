@@ -196,6 +196,7 @@ table tr:first-child td:last-child {
   font-size:16px;
   font-weight:700px;
   text-transform:uppercase;
+  padding:0px;
   
 }
 #match_preview .alias{
@@ -247,4 +248,17 @@ table tr:first-child td:last-child {
   font-size:14px;
   text-transform:uppercase;
   font-weight:900;
+}
+#match_preview .player_img>img{
+  height:60px;
+  width:40px;
+}
+
+#match_preview .team_img>img{
+  height:60px;
+  width:60px;
+}
+#match_preview .country_flag>img{
+  height:32px;
+  width:32px;
 }

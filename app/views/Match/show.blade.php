@@ -2,17 +2,22 @@
 <h1>Match Preview</h1>
 <table id="match_preview">
 	<tr>
-		<td rowspan="10"><img src="images/teams/{{$player1->team_id}}.png" alt="Player 1 Team Logo" /></td>
-		<td rowspan="10"><img src="images/players/{{$player1->id}}.png" alt="Player 1 Avatar" /></td>
+		<td rowspan="10" class="team_img"><img src="images/teams/{{$player1->team_id}}.png" alt="Player 1 Team Logo" /></td>
+		<td rowspan="10" class="player_img"><img src="images/players/{{$player1->id}}.png" alt="Player 1 Avatar" /></td>
 		<td class="name right">{{$player1->first_name}}</td>
 		<td class="title center" colspan="2" rowspan="2">vs</td>
 		<td class="name">{{$player2->first_name}}</td>
-		<td rowspan="10"><img src="images/players/{{$player2->id}}.png" alt="Player 2 Avatar" /></td>
-		<td rowspan="10"><img src="images/teams/{{$player2->team_id}}.png" alt="Player 2 Team Logo" /></td>
+		<td rowspan="10" class="player_img"><img src="images/players/{{$player2->id}}.png" alt="Player 2 Avatar" /></td>
+		<td rowspan="10" class="team_img"><img src="images/teams/{{$player2->team_id}}.png" alt="Player 2 Team Logo" /></td>
 	</tr>
 	<tr>
 		<td class="name right">{{$player1->last_name}}</td>
-		<td class="map" colspan="2" rowspan="9">
+	
+		<td class="name">{{$player2->last_name}}</td>
+	</tr>
+	<tr>
+		<td class="alias center">{{$player1->alias}}</td>
+    	<td class="map" colspan="2" rowspan="9">
 			<table>
         
 				<tr><td class="map_table center">Map1</td><td class="map_table center">Map2</td><td class="map_table center">Map3</td></tr>
@@ -21,10 +26,6 @@
 				<tr><td></td><td class="map_table center">Map7</td><td></td></tr>
 			</table>
 		</td>
-		<td class="name">{{$player2->last_name}}</td>
-	</tr>
-	<tr>
-		<td class="alias center">{{$player1->alias}}</td>
 		<td class="alias center">{{$player2->alias}}</td>
 	</tr>
 	<tr>
@@ -65,9 +66,9 @@
 		<td class="title center" colspan="2">Race</td>
 	</tr>
 	<tr>
-		<td class="center"><img src="images/countries/{{$player1->country}}.png" alt="Player 1 flag" /></td>
+		<td class="center"class="country_flag"><img src="images/countries/{{$player1->country}}.png" alt="Player 1 flag" /></td>
 		<td class="title center" colspan="2">Country</td>
-		<td class="center"><img src="images/countries/{{$player2->country}}.png" alt="Player 2 flag" /></td>
+		<td class="center"class="country_flag"><img src="images/countries/{{$player2->country}}.png" alt="Player 2 flag" /></td>
 	</tr>
 	<tr>
 		<td class="stat center">{{$player1->season_record}}</td>
