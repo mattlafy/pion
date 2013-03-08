@@ -251,12 +251,12 @@ table tr:first-child td:last-child {
   text-transform:uppercase;
   font-weight:900;
 }
-#match_preview .player_img{
+#match_preview .player_img>img{
   height:60px;
   width:40px;
 }
 
-#match_preview .team_img{
+#match_preview .team_img>img{
   height:60px;
   width:60px;
 }
