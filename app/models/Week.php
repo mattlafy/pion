@@ -7,13 +7,13 @@ class Week extends Eloquent {
   public function matches(){
     return $this->hasMany('Match');
   }
-  public function map_one(){
+  public function mapOne(){
     return $this->belongsTo('Map', 'map_one');
   }
-  public function map_two(){
+  public function mapTwo(){
     return $this->belongsTo('Map', 'map_two');
   }
-  public function map_three(){
+  public function mapThree(){
     return $this->belongsTo('Map', 'map_three');
   }
 }

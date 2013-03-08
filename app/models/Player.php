@@ -7,7 +7,7 @@ class Player extends Eloquent {
   public function team(){
     return $this->belongsTo('Team');
   }
-  public function news_posts(){
+  public function newsPosts(){
     return $this->hasMany('News', 'posted_by');
   }
 }

@@ -5,10 +5,10 @@ class Match extends Eloquent {
   public function week(){
     return $this->belongsTo('Week');
   }
-  public function home_player(){
+  public function homePlayer(){
     return $this->belongsTo('Player', 'home_player');
   }
-  public function away_player(){
+  public function awayPlayer(){
     return $this->belongsTo('Player', 'away_player');
   }
 }
