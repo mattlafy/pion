@@ -13,14 +13,14 @@ class PlayerController extends BaseController {
 		// search database for players where $search is in name
 		//$p = new PlayerModel();
 		//$players = $p->list($search);
-        $this->layout->content = View::make('Player.list', array('players' => array(
+        $this->layout->content = View::make('Player.list', array('players' => /* array(
 		
 		(object)array('name'=>'Richard Dicks','alias'=>'Dicco','race'=>'Black and Proud','team'=>'Winnorz','country'=>'Canada','rank'=>'1st'),
 		(object)array('name'=>'Ricks Dews','alias'=>'Fddfcco','race'=>'Zerg','team'=>'Witrz','country'=>'Canada','rank'=>'4st'),
 		(object)array('name'=>'Ricks Goom','alias'=>'Mooopo','race'=>'Terran','team'=>'PLCz','country'=>'Canada','rank'=>'41st')
 		
 		
-		)));
+		)*/ player::all()));
 	}
 
 	/**
