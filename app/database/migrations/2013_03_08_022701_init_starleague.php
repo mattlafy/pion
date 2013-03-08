@@ -28,6 +28,13 @@ class InitStarleague extends Migration {
       $table->string('province')->nullable();
       $table->string('character_name')->nullable();
       $table->string('character_code')->nullable();
+      $table->integer('team_id')->nullable();
+      $table->foreign('team_id')->references('id')->on('teams');
+    });
+    Schema::create('teams', function($table){
+      $table->increments('id');
+      $table->string('name');
+      $table->boolean('has_image');
     });
     Schema::create('rules', function($table){
       $table->increments('id');
@@ -76,7 +83,10 @@ class InitStarleague extends Migration {
       $table->increments('id');
       $table->string('name');
     });
-    
+    Schema::create('country', function($table){
+      $table->increments('id');
+      $table->string('name');
+    });
 	}
 
 	/**
@@ -87,20 +97,28 @@ class InitStarleague extends Migration {
 	public function down()
 	{
     Schema::table('news', function($table){
-      $table->drop_foreign('news_posted_by_foreign');
+      $table->dropForeign('news_posted_by_foreign');
     });
     Schema::table('matches', function($table){
-      $table->drop_foreign('matches_season_id_foreign');
-      $table->drop_foreign('matches_home_player_foreign');
-      $table->drop_foreign('matches_away_player_foreign');      
+      $table->dropForeign('matches_week_id_foreign');
+      $table->dropForeign('matches_home_player_foreign');
+      $table->dropForeign('matches_away_player_foreign');      
+    });
+    Schema::table('weeks', function($table){
+      $table->dropForeign('weeks_season_id_foreign');
+    });
+    Schema::table('players', function($table){
+      $table->dropForeign('players_team_id_foreign');
     });
 
     Schema::drop('players');
+    Schema::drop('teams');
     Schema::drop('rules');
     Schema::drop('news');
     Schema::drop('seasons');
+    Schema::drop('weeks');
     Schema::drop('matches');
-    
+    Schema::drop('maps');
 	}
   
 }
