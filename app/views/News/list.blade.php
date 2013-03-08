@@ -9,6 +9,6 @@
 <div>{{$news->content}}</div>
 <div> Written by {{$news->author}} on {{$news->date_posted}} </div>
 {{$news}}
-{{$news->postedBy}}
+{{$news->postedBy->alias}}
 @endforeach
 @stop
