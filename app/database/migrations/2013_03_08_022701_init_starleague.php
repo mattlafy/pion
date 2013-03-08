@@ -13,6 +13,7 @@ class InitStarleague extends Migration {
 	{
     Schema::create('teams', function($table){
       $table->increments('id');
+      $table->timestamps();
       $table->string('name');
       $table->boolean('has_image');
     });
@@ -38,6 +39,7 @@ class InitStarleague extends Migration {
     });
     Schema::create('rules', function($table){
       $table->increments('id');
+      $table->timestamps();
       $table->string('number');
       $table->string('name');
       $table->text('rule');
@@ -53,6 +55,7 @@ class InitStarleague extends Migration {
     });
     Schema::create('seasons', function($table){
       $table->increments('id');
+      $table->timestamps();
       $table->date('open_registration');
       $table->date('close_registration');
       $table->date('start_date');
@@ -61,6 +64,7 @@ class InitStarleague extends Migration {
     });
     Schema::create('weeks', function($table){
       $table->increments('id');
+      $table->timestamps();
       $table->string('title');
       $table->integer('map_one');
       $table->integer('map_two');
@@ -71,6 +75,7 @@ class InitStarleague extends Migration {
     });
     Schema::create('matches', function($table){
       $table->increments('id'); 
+      $table->timestamps();
       $table->integer('week_id');
       $table->foreign('week_id')->references('id')->on('weeks');
       $table->integer('home_player');
@@ -81,10 +86,12 @@ class InitStarleague extends Migration {
     });
     Schema::create('maps', function($table){
       $table->increments('id');
+      $table->timestamps();
       $table->string('name');
     });
     Schema::create('country', function($table){
       $table->increments('id');
+      $table->timestamps();
       $table->string('name');
     });
 	}
