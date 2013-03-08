@@ -7,6 +7,6 @@
 @foreach($news_posts as $news)
 <h4>{{$news->title}}</h4>
 <div>{{$news->content}}</div>
-<div> Written by {{$temp->author}} on {{$temp->date_posted}} </div>
+<div> Written by {{$news->author}} on {{$news->date_posted}} </div>
 @endforeach
 @stop
