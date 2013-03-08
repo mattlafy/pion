@@ -16,10 +16,10 @@
 	@foreach($players as $p)
 	<tr>
 		<td><a href="/l4/player/{{$p->alias}}">{{$p->alias}}</a></td>
-		<td>{{$p->name}}</td>
+		<td>{{$p->first_name}}{{$p->last_name}}</td>
 		<td>{{$p->race}}</td>
 		<td>{{$p->team}}</td>
-		<td>{{$p->country}}</td>
+		<td>{{$p->country_id}}</td>
 		<td>{{$p->rank}}</td>
 	</tr>
 	@endforeach
