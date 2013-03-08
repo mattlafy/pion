@@ -28,8 +28,8 @@
 		<td class="alias center">{{$player2->alias}}</td>
 	</tr>
 	<tr>
-		<td class="stat center">{{$player1->career_record}}</td>
-		<td class="stat center">{{$player2->career_record}}</td>
+		<td class="record center">{{$player1->career_record}}</td>
+		<td class="record center">{{$player2->career_record}}</td>
 	</tr>
 	<tr>
 		<td class="bio_title right">Team</td>
