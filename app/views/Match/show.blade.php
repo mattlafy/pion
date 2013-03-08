@@ -12,7 +12,12 @@
 	</tr>
 	<tr>
 		<td class="name right">{{$player1->last_name}}</td>
-		<td class="map" colspan="2" rowspan="9">
+	
+		<td class="name">{{$player2->last_name}}</td>
+	</tr>
+	<tr>
+		<td class="alias center">{{$player1->alias}}</td>
+    	<td class="map" colspan="2" rowspan="9">
 			<table>
         
 				<tr><td class="map_table center">Map1</td><td class="map_table center">Map2</td><td class="map_table center">Map3</td></tr>
@@ -21,10 +26,6 @@
 				<tr><td></td><td class="map_table center">Map7</td><td></td></tr>
 			</table>
 		</td>
-		<td class="name">{{$player2->last_name}}</td>
-	</tr>
-	<tr>
-		<td class="alias center">{{$player1->alias}}</td>
 		<td class="alias center">{{$player2->alias}}</td>
 	</tr>
 	<tr>
