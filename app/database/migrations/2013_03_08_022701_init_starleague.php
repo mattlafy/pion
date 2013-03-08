@@ -46,19 +46,31 @@ class InitStarleague extends Migration {
     });
     Schema::create('seasons', function($table){
       $table->increments('id');
+      $table->date('open_registration');
+      $table->date('close_registration');
+      $table->date('start_date');
+      $table->string('name');
+      
+    });
+    Schema::create('weeks', function($table){
+      $table->increments('id');
+      $table->string('title');
+      $table->integer('map_one');
+      $table->integer('map_two');
+      $table->integer('map_three');
+      $table->integer('season_id');
+      $table->foreign('season_id')->references('id')->on('seasons');
+      $table->date('deadline');
     });
     Schema::create('matches', function($table){
       $table->increments('id'); 
-      $table->string('title'); // ex. week 1
-      $table->integer('season_id');
-      $table->foreign('season_id')->references('id')->on('seasons');
+      $table->integer('week_id');
+      $table->foreign('week_id')->references('id')->on('weeks');
       $table->integer('home_player');
       $table->foreign('home_player')->references('id')->on('players');
       $table->ingeger('away_player');
       $table->foreign('away_player')->references('id')->on('players');
-      $table->date('deadline');
-      $table->boolean('submitted');
-      $table->integer('winner');
+      $table->integer('winner')->nullable();
     });
     Schema::create('maps', function($table){
       $table->increments('id');
