@@ -2,13 +2,13 @@
 
 class Player extends Eloquent {
   public function country(){
-    return $this->belongs_to('Country');
+    return $this->belongsTo('Country');
   }
   public function team(){
-    return $this->belongs_to('Team');
+    return $this->belongsTo('Team');
   }
   public function news_posts(){
-    return $this->has_many('News', 'posted_by');
+    return $this->hasMany('News', 'posted_by');
   }
 }
 

@@ -2,19 +2,19 @@
 
 class Week extends Eloquent {
   public function season(){
-    return $this->belongs_to('Season');
+    return $this->belongsTo('Season');
   }
   public function matches(){
-    return $this->has_many('Match');
+    return $this->hasMany('Match');
   }
   public function map_one(){
-    return $this->belongs_to('Map', 'map_one');
+    return $this->belongsTo('Map', 'map_one');
   }
   public function map_two(){
-    return $this->belongs_to('Map', 'map_two');
+    return $this->belongsTo('Map', 'map_two');
   }
   public function map_three(){
-    return $this->belongs_to('Map', 'map_three');
+    return $this->belongsTo('Map', 'map_three');
   }
 }
 
