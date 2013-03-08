@@ -20,7 +20,7 @@ class PlayerController extends BaseController {
 		(object)array('name'=>'Ricks Goom','alias'=>'Mooopo','race'=>'Terran','team'=>'PLCz','country'=>'Canada','rank'=>'41st')
 		
 		
-		)*/ player::all()));
+		)*/ Player::all()));
 	}
 
 	/**
