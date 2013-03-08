@@ -48,9 +48,9 @@ class MatchController extends BaseController {
 	{
     $this->layout->content = View::make('Match.view', array('player1'=> 
         (object)array('first_name'=>'Nick', 'last_name'=>'Dicks', 'id'=>'imghere', 'alias'=>'dicco', 'career_record'=>'200-3', 'race'=>'zerg', 'team_id'=>'teamid', 'age'=>'26', 'rank'=>'1st', 'country'=>'canada', 'season_record'=>'5-0', 'streak'=>'1W'),
-        array('player2'=> 
+        'player2'=> 
         (object)array('first_name'=>'Matt', 'last_name'=>'Lafy', 'alias'=>'lafytaffy', 'id'=>'imghere', 'career_record'=>'200-3', 'race'=>'terran', 'team_id'=>'teamid', 'age'=>'26', 'rank'=>'1st', 'country'=>'canada', 'season_record'=>'4-1', 'streak'=>'1L'),  
-         ))) ;
+         )) ;
     
 
 //

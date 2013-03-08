@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'default' => 'mysql',
+	'default' => 'pgsql',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -66,12 +66,12 @@ return array(
 		'pgsql' => array(
 			'driver'   => 'pgsql',
 			'host'     => 'localhost',
-			'database' => 'database',
-			'username' => 'root',
-			'password' => '',
+			'database' => 'laravel',
+			'username' => 'laravel',
+			'password' => 'hamburgers',
 			'charset'  => 'utf8',
 			'prefix'   => '',
-            'schema'   => 'public',
+      'schema'   => 'public',
 		),
 
 		'sqlsrv' => array(
