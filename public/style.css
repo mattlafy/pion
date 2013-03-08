@@ -260,3 +260,7 @@ table tr:first-child td:last-child {
   height:60px;
   width:60px;
 }
+#match_preview .country_flag>img{
+  height:32px;
+  width:32px;
+}

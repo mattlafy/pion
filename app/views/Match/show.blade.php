@@ -66,9 +66,9 @@
 		<td class="title center" colspan="2">Race</td>
 	</tr>
 	<tr>
-		<td class="center"><img src="images/countries/{{$player1->country}}.png" alt="Player 1 flag" /></td>
+		<td class="center"class="country_flag"><img src="images/countries/{{$player1->country}}.png" alt="Player 1 flag" /></td>
 		<td class="title center" colspan="2">Country</td>
-		<td class="center"><img src="images/countries/{{$player2->country}}.png" alt="Player 2 flag" /></td>
+		<td class="center"class="country_flag"><img src="images/countries/{{$player2->country}}.png" alt="Player 2 flag" /></td>
 	</tr>
 	<tr>
 		<td class="stat center">{{$player1->season_record}}</td>
