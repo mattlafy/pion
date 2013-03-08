@@ -10,7 +10,7 @@ html{
 body, html{
   margin: 0px 0px 0px 0px;
   background-color:#e2e2e2;
-  font-family: cuprum, Arial;
+  font-family: Roboto, Arial;
 }
 h1{
   text-transform:uppercase;
@@ -28,6 +28,12 @@ h3{
     font-size:14px;
     color:#ac1414;
     margin-bottom:5px;
+}
+.right{
+text-align:right;  
+}
+.center, .centre{
+ text-align:center; 
 }
 #nav a{
     color: #181715;
@@ -184,4 +190,63 @@ table tr:first-child td:last-child {
     -moz-border-radius-topright:10px;
     -webkit-border-top-right-radius:10px;
     border-top-right-radius:10px
+}
+#match_preview .name{
+  color:#a9a9a9;
+  font-size:16px;
+  font-weight:700px;
+  text-transform:uppercase;
+  
+  
+  
+}
+#match_preview .alias{
+  color:black;
+  font-size:24px;
+  font-weight:700;
+  
+  
+}
+
+#match_preview .bio_title{
+  color:#a9a9a9;
+  font-size:12px;
+  text-transform:uppercase;
+}
+
+#match_preview .bio_info{
+  color:#black;
+  font-size:12px;
+  text-transform:uppercase; 
+}
+
+#match_preview .stat{
+  color:#black;
+  font-size:16px;
+  text-transform:uppercase;
+  font-weight:900;
+}
+
+#match_preview .title{
+  color:#black;
+  font-size:18px;
+  font-weight:700;
+  text-transform:uppercase;
+}
+#match_preview .map_table{
+  font-size:10px;
+  font-weight:300;
+}
+
+#match_preview .map{
+  padding-left:30px;
+  padding-right:30px
+
+}
+
+#match_preview .record{
+  color:#black;
+  font-size:14px;
+  text-transform:uppercase;
+  font-weight:900;
 }
