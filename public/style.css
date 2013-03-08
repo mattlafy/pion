@@ -237,3 +237,9 @@ table tr:first-child td:last-child {
   font-size:10px;
   font-weight:300;
 }
+
+#match_preview .map{
+  padding-left:10px;
+  padding-right:10px
+
+}
