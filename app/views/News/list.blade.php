@@ -9,6 +9,6 @@
 <div>{{$news->content}}</div>
 <div> Written by {{$news->author}} on {{$news->created_at}} </div>
 {{$news}}
-{{var_dump($news->postedBy())}}
+{{var_dump($news->postedBy()->alias)}}
 @endforeach
 @stop
