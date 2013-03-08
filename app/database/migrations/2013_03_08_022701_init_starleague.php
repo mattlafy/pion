@@ -23,11 +23,11 @@ class InitStarleague extends Migration {
       $table->enum('race', array('protoss', 'terran', 'zerg'))->nullable();
       $table->boolean('has_picture');
       $table->date('date_of_birth')->nullable();
-      $table->integer('country');
-      $table->string('city');
-      $table->string('province');
-      $table->string('character_name');
-      $table->string('character_code');
+      $table->integer('country')->nullable();
+      $table->string('city')->nullable();
+      $table->string('province')->nullable();
+      $table->string('character_name')->nullable();
+      $table->string('character_code')->nullable();
     });
     Schema::create('rules', function($table){
       $table->increments('id');
@@ -60,6 +60,11 @@ class InitStarleague extends Migration {
       $table->boolean('submitted');
       $table->integer('winner');
     });
+    Schema::create('maps', function($table){
+      $table->increments('id');
+      $table->string('name');
+    });
+    
 	}
 
 	/**
