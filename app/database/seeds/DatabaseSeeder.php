@@ -19,7 +19,7 @@ class DatabaseSeeder extends Seeder {
     DB::table('seasons')->delete();
     DB::table('players')->delete();
     DB::table('teams')->delete();
-    DB::table('country')->delete();
+    DB::table('countries')->delete();
     
     Map::create(array('name'=>'north america',));
     Map::create(array('name'=>'south america',));
