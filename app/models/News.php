@@ -2,7 +2,7 @@
 
 class News extends Eloquent {
   protected $table = 'news';
-  public function posted_by(){
+  public function postedBy(){
     return $this->belongsTo('Player', 'posted_by');
   }
 }
