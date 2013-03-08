@@ -41,12 +41,6 @@ class RulesController extends BaseController {
 	public function store()
 	{
 		//
-    $r = new Rule();
-    $r->number = "1.1";
-    $r->name = "rule1";
-    $r->rule = "big long piece of text";
-    $r->save();
-    
 	}
 
 	/**
