@@ -68,7 +68,7 @@ class InitStarleague extends Migration {
       $table->foreign('week_id')->references('id')->on('weeks');
       $table->integer('home_player');
       $table->foreign('home_player')->references('id')->on('players');
-      $table->ingeger('away_player');
+      $table->integer('away_player');
       $table->foreign('away_player')->references('id')->on('players');
       $table->integer('winner')->nullable();
     });
