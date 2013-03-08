@@ -5,14 +5,14 @@
 		<td rowspan="10"><img src="images/teams/{{$player1->team_id}}.png" alt="Player 1 Team Logo" /></td>
 		<td rowspan="10"><img src="images/players/{{$player1->id}}.png" alt="Player 1 Avatar" /></td>
 		<td class="name right">{{$player1->first_name}}</td>
-		<td class="title center" colspan="2">vs</td>
+		<td class="title center" colspan="2" rowspan="2">vs</td>
 		<td class="name">{{$player2->first_name}}</td>
 		<td rowspan="10"><img src="images/players/{{$player2->id}}.png" alt="Player 2 Avatar" /></td>
 		<td rowspan="10"><img src="images/teams/{{$player2->team_id}}.png" alt="Player 2 Team Logo" /></td>
 	</tr>
 	<tr>
 		<td class="name right">{{$player1->last_name}}</td>
-		<td class="map" colspan="2" rowspan="10">
+		<td class="map" colspan="2" rowspan="9">
 			<table>
         
 				<tr><td class="map_table center">Map1</td><td class="map_table center">Map2</td><td class="map_table center">Map3</td></tr>
