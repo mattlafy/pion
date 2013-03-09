@@ -42,7 +42,7 @@ class MatchController extends BaseController {
 	public function show($id)
 	{
   
-    $this->layout->content = View::make('Match.show', Match.all());
+    $this->layout->content = View::make('Match.show', Match::all());
 
 	}
 
