@@ -6,10 +6,10 @@ Week 1<br>
 Search<input type="text" name="search"/>
 <table class="data">
   <tr>
-		<td>Home Team</td>
+		<td>Home Player</td>
     <td>vs</td>
-		<td>Away Team</td>
-		<td>Date</td>
+		<td>Away Player</td>
+		<td>Deadline</td>
 		<td>Map 1</td>
 		<td>Map 2</td>
 		<td>Map 3</td>
@@ -17,13 +17,13 @@ Search<input type="text" name="search"/>
 	</tr>
 	@foreach($matches as $m)
 	<tr>
-		<td>{{$m->home_team}}</td>
+		<td>{{$m->home_player()->first()->alias}}</td>
 		<td></td>
-		<td>{{$m->away_team}}</td>
-		<td>{{$m->date}}</td>
-		<td>{{$m->map_1}}</td>
-		<td>{{$m->map_2}}</td>
-		<td>{{$m->map_3}}</td>
+		<td>{{$m->away_player()->first()->alias}}</td>
+		<td>{{$m->week()->first()->deadline}}</td>
+		<td>{{$m->week()->first()->map_one}}</td>
+		<td>{{$m->week()->first()->map_two}}</td>
+		<td>{{$m->week()->first()->map_three}}</td>
 		<td><a href="/l4/match/{{$m->id}}">Preview Match</a></td>
   </tr>
   @endforeach
