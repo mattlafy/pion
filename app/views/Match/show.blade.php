@@ -12,7 +12,7 @@
 	</tr>
 
 	<tr>
-		<td class="alias center">{{$player1->alias}}</td>
+		<td class="alias center">{{$homePlayer->alias}}</td>
     	<td class="map" colspan="2" rowspan="9">
 			<table>
         
@@ -25,56 +25,56 @@
 		<td class="alias center">{{$player2->alias}}</td>
 	</tr>
 	<tr>
-		<td class="record center">{{$player1->career_record}}</td>
-		<td class="record center">{{$player2->career_record}}</td>
+		<td class="record center">{{$homePlayer->career_record}}</td>
+		<td class="record center">{{$awayPlayer->career_record}}</td>
 	</tr>
 	<tr>
 		<td class="bio_title right">Team</td>
 		<td class="bio_title">Team</td>
 	</tr>
 	<tr>
-		<td class="bio_info right">{{$player1->team}}</td>
-		<td class="bio_info">{{$player2->team}}</td>
+		<td class="bio_info right">{{$homePlayer->team}}</td>
+		<td class="bio_info">{{$awayPlayer->team}}</td>
 	</tr>
 	<tr>
 		<td class="bio_title right">Age</td>
 		<td class="bio_title">Age</td>
 	</tr>
 	<tr>
-		<td class="bio_info right">{{$player1->age}}</td>
-		<td class="bio_info">{{$player2->age}}</td>
+		<td class="bio_info right">{{$homePlayer->age}}</td>
+		<td class="bio_info">{{$awayPlayer->age}}</td>
 	</tr>
 	<tr>
 		<td class="bio_title right">Division Rank</td>
 		<td class="bio_title">Division Rank</td>
 	</tr>
 	<tr>
-		<td class="bio_info right">{{$player1->rank}}</td>
-		<td class="bio_info">{{$player2->rank}}</td>
+		<td class="bio_info right">{{$homePlayer->rank}}</td>
+		<td class="bio_info">{{$awayPlayer->rank}}</td>
 	</tr>
 	<tr>
 		<td rowspan="5" colspan="2"><!--Keys to Victory--></td>
-		<td class="center" rowspan="2"><img src="/l4/images/races/{{$player1->race}}.png" alt="Player 1 Race" /></td>
-		<td class="center" rowspan="2"><img src="/l4/images/races/{{$player2->race}}.png" alt="Player 2 Race" /></td>
+		<td class="center" rowspan="2"><img src="/l4/images/races/{{homePlayer->race}}.png" alt="Player 1 Race" /></td>
+		<td class="center" rowspan="2"><img src="/l4/images/races/{{$awayPlayer->race}}.png" alt="Player 2 Race" /></td>
 		<td rowspan="5" colspan="2"><!--Keys to Victory--></td>
 	</tr>
 	<tr>
 		<td class="title center" colspan="2">Race</td>
 	</tr>
 	<tr>
-		<td class="center"class="country_flag"><img src="/l4/images/countries/{{$player1->country}}.png" alt="Player 1 flag" /></td>
+		<td class="center"class="country_flag"><img src="/l4/images/countries/{{$homePlayer->country}}.png" alt="Player 1 flag" /></td>
 		<td class="title center" colspan="2">Country</td>
-		<td class="center"class="country_flag"><img src="/l4/images/countries/{{$player2->country}}.png" alt="Player 2 flag" /></td>
+		<td class="center"class="country_flag"><img src="/l4/images/countries/{{$awayPlayer->country}}.png" alt="Player 2 flag" /></td>
 	</tr>
 	<tr>
-		<td class="stat center">{{$player1->season_record}}</td>
+		<td class="stat center">{{$homePlayer->season_record}}</td>
 		<td class="title center" colspan="2">Season Record</td>
-		<td class="stat center">{{$player2->season_record}}</td>
+		<td class="stat center">{{$awayPlayer->season_record}}</td>
 	</tr>
 	<tr>
-		<td class="stat center">{{$player1->streak}}</td>
+		<td class="stat center">{{$homePlayer->streak}}</td>
 		<td class="title center" colspan="2">streak</td>
-		<td class="stat center">{{$player2->streak}}</td>
+		<td class="stat center">{{$awayPlayer->streak}}</td>
 	</tr>
 	<!--
 	<tr>
