@@ -267,3 +267,6 @@ table tr:first-child td:last-child {
   height:32px;
   width:32px;
 }
+#player_bio{
+  background-image:'/l4/images/playercard.png';
+}
