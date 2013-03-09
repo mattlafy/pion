@@ -27,11 +27,11 @@
     </tr>
     <tr>
         <td class="profile_title">Country</td>
-        <td class="profile_info">{{$player->country()->first->()->name</td>
+        <td class="profile_info">{{$player->country()->first()->name</td>
     </tr>
     <tr>
         <td class="profile_title">Team</td>
-        <td class="profile_info">{{$player->team->name</td>
+        <td class="profile_info">{{$player->team()->first()->name</td>
     </tr>
 </table>
 
