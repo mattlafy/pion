@@ -6,7 +6,7 @@
 		<td rowspan="9" class="player_img"><img src="images/players/{{$homePlayer->id}}.png" alt="Player 1 Avatar" /></td>
 		<td class="name right">{{$homePlayer->first_name}}<br>{{$homePlayer->last_name}}</td>
 		<td class="title center" colspan="2">vs</td>
-		<td class="name">{{$awayPlayer->first_name}}<br>{{$awayPlayer2->last_name}}</td>
+		<td class="name">{{$awayPlayer->first_name}}<br>{{$awayPlayer->last_name}}</td>
 		<td rowspan="9" class="player_img"><img src="images/players/{{$awayPlayer->id}}.png" alt="Player 2 Avatar" /></td>
 		<td rowspan="9" class="team_img"><img src="images/teams/{{$awayPlayer->team_id}}.png" alt="Player 2 Team Logo" /></td>
 	</tr>
@@ -22,7 +22,7 @@
 				<tr><td></td><td class="map_table center">Map7</td><td></td></tr>
 			</table>
 		</td>
-		<td class="alias center">{{$player2->alias}}</td>
+		<td class="alias center">{{$awayPlayer->alias}}</td>
 	</tr>
 	<tr>
 		<td class="record center">{{$homePlayer->career_record}}</td>
