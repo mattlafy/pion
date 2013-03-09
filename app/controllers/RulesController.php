@@ -10,15 +10,8 @@ class RulesController extends BaseController {
 	 */
 	public function index()
 	{
-            $this->layout->content = View::make('Rules.list', array('rules' => array(
-		
-		(object)array('dots'=>'0','title'=>'Section 1','text'=>'Dont be a wanker','rule'=>'1'),
-		(object)array('dots'=>'1','title'=>'Definitions','text'=>'a wanker is defined as someone who wanks in public','rule'=>'1.1'),
-		(object)array('dots'=>'0','title'=>'Section 2','text'=>'Have fun','rule'=>'2'),
-		(object)array('dots'=>'1','title'=>'Mandate','text'=>'Fun is legally mandated','rule'=>'2.1'),
-		(object)array('dots'=>'2','title'=>'sub-point','text'=>'Dont poop in the pool','rule'=>'2.1.1'),
-		
-		
+            $this->layout->content = View::make('Rules.list', array('rules' => rules:all() 
+				
 		)));
 //
 	}
