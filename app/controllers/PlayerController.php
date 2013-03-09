@@ -27,13 +27,13 @@ class PlayerController extends BaseController {
 		//
 	}
 	/**
-	 * Show the listing of standings.
+	 * Show the listing of standings.     
 	 *
 	 * @return Response
 	 */
 	public function standings()
 	{
-		$this->layout->content = View::make('Player.standings', array('players'=>array((object)array('rank'=>'1','alias'=>'dicco','race'=>'car','team'=>'blasdh','matches_played'=>4,'wins'=>3039,'losses'=>349,'streak'=>4,'last_five_games'=>49,'games_won'=>590,'games_lost'=>20,'plus_minus'=>503))));
+		$this->layout->content = View::make('Player.standings', array('players'=> Player:all()));
 		//
 	}
 
