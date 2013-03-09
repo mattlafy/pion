@@ -55,7 +55,7 @@ class PlayerController extends BaseController {
 	public function show($id)
 	{
     $p = Player::where('alias', '=', $id)->first();
-		$this->layout->content = View::make('Player.show', array('player' => $p, 'age' => $age));
+		$this->layout->content = View::make('Player.show', array('player' => $p));
 //
 	}
 
