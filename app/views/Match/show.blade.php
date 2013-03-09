@@ -41,8 +41,8 @@
 		<td class="bio_title">Age</td>
 	</tr>
 	<tr>
-		<td class="bio_info right">{{$homePlayer->age}}</td>
-		<td class="bio_info">{{$awayPlayer->age}}</td>
+		<td class="bio_info right">{{$homePlayer->age()}}</td>
+		<td class="bio_info">{{$awayPlayer->age()}}</td>
 	</tr>
 	<tr>
 		<td class="bio_title right">Division Rank</td>
