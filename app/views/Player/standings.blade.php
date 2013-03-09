@@ -21,9 +21,9 @@
 	@foreach($players as $p)
 	<tr>
 		<td>{{$p->rank}}</td>
-		<td>{{$p->alias}}</td>
+		<td>{{$p->players->alias}}</td>
 		<td>{{$p->race}}</td>
-		<td>{{$p->team}}</td>
+		<td>{{$p->team->name}}</td>
 		<td>{{$p->matches_played}}</td>
 		<td>{{$p->wins}}</td>
 		<td>{{$p->losses}}</td>

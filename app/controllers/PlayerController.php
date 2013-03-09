@@ -33,7 +33,7 @@ class PlayerController extends BaseController {
 	 */
 	public function standings()
 	{
-		$this->layout->content = View::make('Player.standings', array('players'=> Player:all()));
+		$this->layout->content = View::make('Player.standings', array('players'=> Player::all()));
 		//
 	}
 
