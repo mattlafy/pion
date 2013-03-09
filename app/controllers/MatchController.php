@@ -41,8 +41,11 @@ class MatchController extends BaseController {
 	 */
 	public function show($id)
 	{
-  
-    $this->layout->content = View::make('Match.show', array('matches' => Match::all()));
+   $m = Match::get($id);
+
+    $this->layout->content =  View::make('Match.show', array('match' => $m, 'homePlayer' => $m->homePlayer()->first(), 'awayPlayer' => $m->awayPlayer()->first()));
+
+
 
 
 	}
