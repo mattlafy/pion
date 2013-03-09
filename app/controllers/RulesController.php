@@ -10,9 +10,7 @@ class RulesController extends BaseController {
 	 */
 	public function index()
 	{
-            $this->layout->content = View::make('Rules.list', array('rules' => rules:all() 
-				
-		)));
+            $this->layout->content = View::make('Rules.list', array('rules' => Rules::all()));
 //
 	}
 
