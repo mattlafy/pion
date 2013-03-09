@@ -17,9 +17,9 @@ Search<input type="text" name="search"/>
 	</tr>
 	@foreach($matches as $m)
 	<tr>
-		<td>{{$m->home_player()->first()->alias}}</td>
+		<td>{{$m->homePlayer()->first()->alias}}</td>
 		<td></td>
-		<td>{{$m->away_player()->first()->alias}}</td>
+		<td>{{$m->awayPlayer()->first()->alias}}</td>
 		<td>{{$m->week()->first()->deadline}}</td>
 		<td>{{$m->week()->first()->map_one}}</td>
 		<td>{{$m->week()->first()->map_two}}</td>
