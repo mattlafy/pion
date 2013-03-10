@@ -7,6 +7,6 @@
 @foreach($news_posts as $news)
 <h2>{{$news->topic}}</h2>
 <div>{{$news->content}}</div>
-<div class="footer"> Written by {{$news->postedBy()->first()->alias}} on {{date('l F jS Y', strtotime($news->created_at))}} </div>
+<footer> Written by {{$news->postedBy()->first()->alias}} on {{date('l F jS Y', strtotime($news->created_at))}} </footer>
 @endforeach
 @stop
