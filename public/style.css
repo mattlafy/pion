@@ -307,7 +307,7 @@ table tr:first-child td:last-child {
 #players_list{
   width:760px;
 }
-#player_search{
+.player_search{
   text-align:right;
   color:#ac1414;
 }
