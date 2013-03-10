@@ -1,10 +1,11 @@
 @section('schedule_tab') selected @stop
 @section('content')
 <h1>Schedule</h1>
+<H3>Current Season Full Schedule</h3>
 
-Week 1<br>
-Search<input type="text" name="search"/>
-<table class="data">
+<h3>Week:</h3> Week 1
+<h3 id="player_search">Search<input type="text" name="search"/></h3>
+<table class="data" id="players_list">
   <tr>
 		<td>Home Player</td>
     <td>vs</td>
