@@ -268,5 +268,5 @@ table tr:first-child td:last-child {
   width:32px;
 }
 #player_bio{
-  background-image:'/l4/images/playercard.png';
+  background-image:url(/l4/images/playercard.png);
 }
