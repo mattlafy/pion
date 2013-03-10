@@ -2,7 +2,7 @@
 @section('content')
 <h1>Players</h1>
 <H3>Current Season Player List</H3>
-<h3 id="player_search">Search<input type="text" name="search"/></h3>
+<span class="player_search float-right">Search<input type="text" name="search"/></span>
 
 <table class="data" id="players_list">
 	<tr>
