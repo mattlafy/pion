@@ -273,11 +273,17 @@ table tr:first-child td:last-child {
 #player_bio .profile_title{
   color:white;
   font-weight:300;
-  font-size:18px
+  font-size:16px
 }
 
 #player_bio .profile_info{
   color:white;
   font-weight:900;
-  font-size:18px
+  font-size:16px
+}
+
+#player_bio .profile_alias{
+  color:f2c202;
+  font-weight:900;
+  font-size:24px
 }
