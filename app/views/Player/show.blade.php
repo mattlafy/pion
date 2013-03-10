@@ -5,7 +5,7 @@
 <table id="player_bio">
     <tr>
         <td rowspan="5">
-            picture
+          <img src="/l4/images/playeravatar/{{$player->image}}.png"/> 
         </td>
         <td class="profile_alias" colspan="2">
             {{$player->alias}}
