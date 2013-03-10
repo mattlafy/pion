@@ -269,6 +269,8 @@ table tr:first-child td:last-child {
 }
 #player_bio{
   background-image:url(/l4/images/playercard.png);
+  width:573px;
+  height:193px;
 }
 #player_bio .profile_title{
   color:white;
