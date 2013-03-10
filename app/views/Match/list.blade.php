@@ -4,7 +4,7 @@
 <H3>Current Season Full Schedule</h3>
 
 <span class="week_title">Week:</span>Week 1
-<span class="player_search">Search<input type="text" name="search"/></span>
+<span class="player_search right">Search<input type="text" name="search"/></span>
 <table class="data" id="players_list">
   <tr>
 		<td>Home Player</td>
