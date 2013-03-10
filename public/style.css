@@ -206,7 +206,7 @@ table tr:first-child td:last-child {
   color:#a9a9a9;
   line-height:16px;
   font-size:16px;
-  font-weight:700px;
+  font-weight:700;
   text-transform:uppercase;
   padding:0px;
   
@@ -226,20 +226,20 @@ table tr:first-child td:last-child {
 }
 
 #match_preview .bio_info{
-  color:#black;
+  color:black;
   font-size:12px;
   text-transform:uppercase; 
 }
 
 #match_preview .stat{
-  color:#black;
+  color:black;
   font-size:16px;
   text-transform:uppercase;
   font-weight:900;
 }
 
 #match_preview .title{
-  color:#black;
+  color:black;
   height:38px;
   font-size:18px;
   font-weight:700;
@@ -257,7 +257,7 @@ table tr:first-child td:last-child {
 }
 
 #match_preview .record{
-  color:#black;
+  color:black;
   font-size:14px;
   text-transform:uppercase;
   font-weight:900;
@@ -297,7 +297,7 @@ table tr:first-child td:last-child {
   color:#f2c202;
   font-weight:900;
   font-size:30px;
-  padding-top:10
+  padding-top:10px;
 }
 #player_bio .profile_race{
   text-align:right;
