@@ -310,6 +310,7 @@ table tr:first-child td:last-child {
 .player_search{
   text-align:right;
   color:#ac1414;
+  font-weight:600;
 }
 .week_title{
     font-weight:600;
