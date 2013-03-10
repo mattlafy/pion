@@ -1,8 +1,9 @@
 @section('players_tab') selected @stop
 @section('content')
 <h1>Players</h1>
-<h3>Search <input type="text" name="search"/></h3>
-<table class="data">
+<h3 id="player_search">Search<input type="text" name="search"/></h3>
+
+<table class="data" id="players_list">
 	<tr>
 		<td>Alias</td>
 		<td>Name</td>
