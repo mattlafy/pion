@@ -311,6 +311,8 @@ table tr:first-child td:last-child {
   text-align:right;
   color:#ac1414;
   font-weight:600;
+  text-transform:uppercase;
+  font-size:12px;
 }
 .week_title{
     font-weight:600;
