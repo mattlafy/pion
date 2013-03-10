@@ -22,7 +22,7 @@
     <tr>
         <td class="profile_title">Age</td>
         <td class="profile_info">{{$player->age()}}</td>
-        <!-- <td rowspan="3">league placeholder</td> -->
+        <td rowspan="3">{{--league placeholder--}}</td>
         
     </tr>
     <tr>

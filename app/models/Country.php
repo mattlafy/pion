@@ -5,5 +5,8 @@ class Country extends Eloquent {
   public function players(){
     return $this->hasMany('Player');
   }
+  public function getPlayersAttribute(){
+    return $this->players();
+  }
 }
 ?>
