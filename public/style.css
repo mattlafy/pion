@@ -58,7 +58,7 @@ table{
     
 }
 .clear{ clear: both; }
-.right{ float:right;}
+.float-right{ float:right;}
 #pion-nav{
   background-color: #881b1b;
   min-width:1300px
