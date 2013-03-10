@@ -4,7 +4,7 @@
 <h3>THE LATEST STARLEAGUE NEWS UPDATES</h3>
 
 @foreach($news_posts as $temp)
-<h4>{{$temp->title}}</h4>
+<h2>{{$temp->title}}</h2>
 <div>{{$temp->content}}</div>
 <div> Written by {{$temp->author}} on {{$temp->date_posted}} </div>
 @endforeach
