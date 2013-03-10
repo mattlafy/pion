@@ -3,7 +3,8 @@
 @section('content')
 <h1>STARLEAGUE STANDINGS</h1>
 <H3>Current Season, Season One 2013</H3>
-<table class="data">
+<h3 id="player_search">Search<input type="text" name="search"/></h3>
+<table class="data" id="players_list">
 	<tr>
 		<td>#</td>
 		<td>Player</td>
