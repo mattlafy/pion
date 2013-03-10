@@ -33,8 +33,8 @@
 		<td class="bio_title">Team</td>
 	</tr>
 	<tr>
-		<td class="bio_info right">{{$homePlayer->team}}</td>
-		<td class="bio_info">{{$awayPlayer->team}}</td>
+		<td class="bio_info right">{{$homePlayer->team->name}}</td>
+		<td class="bio_info">{{$awayPlayer->team->name}}</td>
 	</tr>
 	<tr>
 		<td class="bio_title right">Age</td>
