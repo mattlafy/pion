@@ -176,7 +176,8 @@ table{
   padding: 10px 20px 20px 0px;
 }
 table.data{
-   border-bottom:1px solid #181715;  
+   border-bottom:1px solid #181715;
+   padding-bottom:10px;
 }
 table.data tr td{
     padding:0px 6px 0px 6px;
