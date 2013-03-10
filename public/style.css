@@ -293,5 +293,5 @@ table tr:first-child td:last-child {
 }
 #player_bio .profile_race{
   text-align:right;
- 
+  padding-right:10px;
 }
