@@ -36,7 +36,7 @@
 	</tr>
 	@endforeach
 </table>
-<table class="data">
+<table class="data float-right">
     <tr>
         <td></td>
         <td>Definition</td>
