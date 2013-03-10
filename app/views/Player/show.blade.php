@@ -10,7 +10,7 @@
         <td class="profile_alias" colspan="2">
             {{$player->alias}}
         </td>
-        <td rowspan="2">
+        <td class="profile_race" rowspan="2">
             <img src="/l4/images/races/{{$player->race}}.png" alt="Player Race" />
         </td>
     </tr>
