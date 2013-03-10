@@ -270,3 +270,14 @@ table tr:first-child td:last-child {
 #player_bio{
   background-image:url(/l4/images/playercard.png);
 }
+#player_bio .profile_title{
+  color:white;
+  font-weight:300;
+  font-size:18px
+}
+
+#player_bio .profile_info{
+  color:white;
+  font-weight:900;
+  font-size:18px
+}
