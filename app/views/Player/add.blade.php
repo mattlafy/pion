@@ -18,7 +18,7 @@
 	
   
 <h3>Starcraft 2 Information</h3>
-{{Form::label('sc2_alias', ':')}} {{Form::text('state_province')}}
+{{Form::label('sc2_alias', 'Character Code:')}} {{Form::text('sc2_alias')}}.{{Form::text('char_code')}}
 	Starcraft 2 Character Code: <input type="text" name="sc2_alias" />.<input type="text" name="char_code" />
 	Race: <select name="race">
 <option>Choose a race</option>
