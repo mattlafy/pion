@@ -18,7 +18,7 @@
 	
   
 <h3>Starcraft 2 Information</h3>
-{{Form::label('sc2_alias', 'Character Code:')}} {{Form::text('sc2_alias')}}#{{Form::text('char_code')}}<br><span class='important'>Find your Character code by hovering your mouse over your character portrait on battle.net, Example: Name#999</span><br>
+{{Form::label('sc2_alias', 'Character Code:')}} {{Form::text('sc2_alias')}}#<span class='char_code'>{{Form::text('char_code')}}</span><br><span class='important'>Find your Character code by hovering your mouse over your character portrait on battle.net, Example: Name#999</span><br>
 	
 	Race: <select name="race">
 <option>Choose a race</option>
