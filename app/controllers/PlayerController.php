@@ -25,7 +25,7 @@ class PlayerController extends WidgetController {
 	public function create()
 	{ 
     $player = new Player();
-		$this->layout->content = View::make('Player.add', array('player'=>$player,'countries'=> Country::all()));
+		$this->layout->content = View::make('Player.add', array('player'=>$player,'countries'=> Country::lists('name','id')));
 		//
 	}
 	/**
