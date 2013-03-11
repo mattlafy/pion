@@ -398,6 +398,7 @@ table.widget_table tr:nth-child(even)>td{
 }
 
 .widget_matches_title>td{
+  padding-top:5px;
   height:30px;
   background-image:url(images/navsml.png);
   font-size:14px;
