@@ -7,5 +7,5 @@
 {{Form::token()}}
 {{Form::close()}}
 
-{{Hash::make('test')}}
+{{Hash::make('betab2')}}
 @stop

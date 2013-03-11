@@ -7,6 +7,7 @@ class AuthController extends WidgetController {
     $this->layout->content = View::make('Auth.login');
   }
   public function check(){
+    print "test";
     if(Auth::validate(Input::only('email', 'password'))){
       Redirect::to('/');
     }
