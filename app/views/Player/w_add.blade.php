@@ -12,7 +12,7 @@
  </tr>
  <tr>
    <td>Join Season</td>
-   <td>Sign up today to play in the current season. Compete against the best players- Earn fanastic prizes!</td>
+   <td>Sign up today to play in the current season. Compete against the best players- Earn fantastic prizes!</td>
  </tr>
  <tr>
    <td>Subscribe to Premium</td>
@@ -24,7 +24,7 @@
  </tr>
  <tr>
    <td>Join a Team</td>
-   <td>Join an existing team. You'll need your teams password.</td>
+   <td>Join an existing team. You'll need your team's password.</td>
  </tr>
 </table>
 @stop
