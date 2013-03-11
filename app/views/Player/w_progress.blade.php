@@ -3,7 +3,7 @@
 <table id='progress_widget'>
   
  <tr>
-   <td class='progress_header'>Welcome to Pion Esports StarLeague<br><span class='progress_header2'>Follow these steps to begin competing today!</span></td>
+   <td><span class='progress_header'>Welcome to Pion Esports StarLeague</span><br><span class='progress_header2'>Follow these steps to begin competing today!</span></td>
  </tr>
  <tr>
    <td class='progress_information'>Follow these steps to begin competing today!</td>
