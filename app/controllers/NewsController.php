@@ -21,8 +21,8 @@ class NewsController extends WidgetController {
 	 */
 	public function create()
 	{
-		//
-		$this->layout->content = View::make('News.add', array('topic'=>'', 'content'=>'', 'id'=>''));
+    $news = new News();
+		$this->layout->content = View::make('News.add', array('news'=>$news));
 	}
 
 	/**
@@ -53,7 +53,8 @@ class NewsController extends WidgetController {
 	 */
 	public function edit($id)
 	{
-		//
+		$news = News::find($id);
+    $this->layout->nest('widget','News.add', array('news'=>$news));
 	}
 
 	/**
