@@ -24,7 +24,7 @@
  </tr>
  <tr class='pending'>
    <td><input type="checkbox" disabled/></td>
-   <td><div class='progress_title'>Subscribe to Premium</div><div class='progress_instruction'>Subscribe to our premium cash pool. Compete for cash prizes!</div></td>
+   <td><div class='progress_title'>Subscribe to Premium</div><div class='progress_instruction'>Subscribe to our premium cash pool. Become eligible to compete for cash prizes!</div></td>
  </tr>
  <tr>
   <td colspan='2'></td>
