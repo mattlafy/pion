@@ -8,17 +8,30 @@ class WidgetController extends BaseController {
 
     $progress = array();
     if(Auth::check()){
-      $progress['register'] = true;
+      $progress['register'] = 'completed';
       $user = Auth::user();
       if($user->seasons()->first() == Season::orderBy('start_date', 'desc')->first()){
-        $progress['season'] = true;
+        $progress['season'] = 'completed';
         if($user->seasons()->first()->pivot->is_premium){
-          $progress['premium'] = true;
+          $progress['premium'] = 'completed';
+        }
+        else{
+          $progress['premium'] = 'in_progress';
         }
       }
-      if($user->team != null){
-        $progress['team'] = true;
+      else{
+        $progress['season'] = 'in_progress';
       }
+      if($user->team != null){
+        $progress['create_team'] = 'completed';
+        $progress['join_team'] = 'completed';
+      }
+      elseif($progress['season'] != 'in_progress' && $progress['premium'] != 'in_progress'){
+        $progress['create_team'] = 'in_progress';
+      }
+    }
+    else{
+      $progress['register'] = 'in_progress';
     }
     $this->layout->nest('widget'.$i++,'Player.w_progress', array('progress' => $progress));
   }
