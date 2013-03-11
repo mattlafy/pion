@@ -1,5 +1,4 @@
 @section('content')
-@parent
 <h1>Add News</h1>
 {{Form::model($news, array('action'=>'NewsController@store','files'=>true))}}
 <div>{{Form::label('topic', 'Topic')}} {{Form::text('topic')}}</div>

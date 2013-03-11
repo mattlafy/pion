@@ -21,6 +21,9 @@ Route::get('/', function()
 Route::get('/', 'NewsController@index');
 Route::any('player/junk/player.html', 'PlayerController@index');
 Route::any('standings', 'PlayerController@standings');
+Route::get('/login', 'AuthController@login');
+Route::any('/logout', 'AuthController@logout');
+Route::post('/check', 'AuthController@check');
 
 Route::resource('player', 'PlayerController');
 Route::resource('team', 'TeamController');
