@@ -6,10 +6,10 @@
    <td class='progress_header'><span class='progress_header_one'>Welcome to Pion Esports StarLeague</span><br><span class='progress_header_two'>Follow these steps to begin competing today!</span></td>
  </tr>
   <tr>
-   <td class='progress_title'>Register</td>
+   <td></td>
  </tr>
  <tr>
-   <td class='progress_instruction'>or sign in to an existing account.</td>
+   <td><span class='progress_title'>Register</span><br><span class='progress_header_two'>Or sign in to an existing account by clicking Login above</span></td>
  </tr>
  <tr>
    <td class='progress_title'>Join Season</td>
