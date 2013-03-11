@@ -10,7 +10,7 @@ class WidgetController extends BaseController {
     if(Auth::check()){
       $progress['register'] = true;
       $user = Auth::user();
-      if($user->seasons()->first() == Season::newQuery()->orderBy('start_date', 'desc')->first()){
+      if($user->seasons()->first() == Season::orderBy('start_date', 'desc')->first()){
         $progress['season'] = true;
         if($user->seasons()->first()->pivot->is_premium){
           $progress['premium'] = true;
