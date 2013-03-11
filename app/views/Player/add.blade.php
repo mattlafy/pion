@@ -27,8 +27,8 @@
 <option value="protoss">Protoss</option>
 <option value="terran">Terran</option>
 </select>
-
 	
 <p><input type="submit" value="Register Now!" name="submit"/></p>
-</form>
+  </div>
+{{Form::close()}}
 @stop
