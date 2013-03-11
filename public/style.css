@@ -398,3 +398,13 @@ table.data tr:first-child td:last-child {
   font-weight:600;
   
 }
+.widget_title{
+  padding-bottom:0px;
+    
+}
+table.widget_table tr:nth-child(odd)>td{
+    background-color:#eeeeee;
+}
+table.widget_table tr:nth-child(even)>td{
+    background-color:#dddddd;
+}
