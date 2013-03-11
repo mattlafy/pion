@@ -396,11 +396,11 @@ table.data tr:first-child td:last-child {
   background-image:url(images/navsml.png);
   font-size:14px;
   font-weight:600;
-  
+  width:378px;
 }
 .widget_title{
   padding-bottom:0px;
-    
+  margin-bottom:0px;
 }
 table.widget_table tr:nth-child(odd)>td{
     background-color:#eeeeee;
