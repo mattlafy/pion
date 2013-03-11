@@ -32,7 +32,18 @@ class NewsController extends WidgetController {
 	 */
 	public function store()
 	{
-		$news = News::create(Input::except('id','_token'));
+    $values = Input::except('id','_token');
+    if(Input::hasFile('news_image')){
+      $has_image = true;
+    }
+    else{
+      $has_image = false;
+    }
+    $values['has_image'] = $has_image;
+		$news = News::create($values);
+    if($has_image){
+      Input::file('news_image')->move();
+    }
     return Redirect::to('NewsController@show', array($news->id));
   }
 
