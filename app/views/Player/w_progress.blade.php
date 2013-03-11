@@ -16,28 +16,28 @@
    <td colspan='2'></td>
  </tr>
  <tr>
-   <td><input type="checkbox" disabled checked/></td>
+   <td><input type="checkbox" disabled/></td>
    <td><div class='progress_title'>Join Season</div><div class='progress_instruction'>Sign up today to play in the current season. Compete against the best players- Earn fantastic prizes!</div></td>
  </tr>
  <tr>
    <td colspan='2'></td>
  </tr>
  <tr>
-   <td><input type="checkbox" disabled checked/></td>
+   <td><input type="checkbox" disabled/></td>
    <td><div class='progress_title'>Subscribe to Premium</div><div class='progress_instruction'>Subscribe to our premium cash pool. Compete for cash prizes!</div></td>
  </tr>
  <tr>
   <td colspan='2'></td>
  </tr>
  <tr>
-   <td><input type="checkbox" disabled checked/></td>
+   <td><input type="checkbox" disabled/></td>
    <td><div class='progress_title'>Create a Team</div><div class='progress_instruction'>Setup a new team in our league</div></td>
  </tr>
  <tr>
    <td colspan='2'></td>
  </tr>
  <tr>
-   <td><input type="checkbox" disabled checked/></td>
+   <td><input type="checkbox" disabled/></td>
    <td><div class='progress_title'>Join a Team</div><div class='progress_instruction'>Join an existing team in our league. You'll need your team's password to gain access.</div></td>
  </tr>
  <tr>
