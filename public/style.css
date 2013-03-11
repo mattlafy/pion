@@ -181,6 +181,7 @@ table.data{
 }
 table.data tr td{
     padding:0px 6px 0px 6px;
+    font-size:12px;
 }
 table.data tr:nth-child(odd)>td{
     background-color:#eeeeee;
