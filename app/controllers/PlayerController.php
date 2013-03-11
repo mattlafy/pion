@@ -15,7 +15,6 @@ class PlayerController extends WidgetController {
 		//$players = $p->list($search);
         $this->layout->content = View::make('Player.list', array('players' => Player::all()));
         $news = News::find(1);
-        Form::model($news);
         $this->layout->nest('widget','News.add', array('news'=>$news));
 	}
 
