@@ -7,7 +7,7 @@
     {{Form::label('first_name', 'First Name:')}} {{Form::text('first_name')}}<br>
     {{Form::label('last_name', 'Last Name:')}} {{Form::text('last_name')}}<br>
     {{Form::label('alias', 'Alias:')}} {{Form::text('alias')}}<span class='suggested_size'>Will be your username on the site</span><br>
-    {{Form::label('email', 'Email:')}} {{Form::text('email')}}<br>
+    {{Form::label('email', 'Email:')}} {{Form::email('email')}}<br>
     {{Form::label('password', 'Password:')}} {{Form::password('password')}}<br>
     {{Form::label('password_repeat', 'Repeat Password:')}} {{Form::password('password_repeat')}}<br>
     {{Form::label('profile_picture', 'Profile Picture:')}} {{Form::file('profile_picture')}}<span class='suggested_size'>Suggested Size 168x188</span><br>
@@ -18,6 +18,7 @@
 	
   
 <h3>Starcraft 2 Information</h3>
+{{Form::label('sc2_alias', ':')}} {{Form::text('state_province')}}
 	Starcraft 2 Character Code: <input type="text" name="sc2_alias" />.<input type="text" name="char_code" />
 	Race: <select name="race">
 <option>Choose a race</option>
