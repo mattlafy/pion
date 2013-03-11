@@ -12,28 +12,28 @@
    <td><span class='progress_title'>Register</span><br><span class='progress_instruction'>Or sign in to an existing account by clicking Login above</span></td>
  </tr>
  <tr>
-   <td class='progress_title'>Join Season</td>
+   <td>asdf</td>
  </tr>
  <tr>
-   <td class='progress_instruction'>Sign up today to play in the current season. Compete against the best players- Earn fanastic prizes!</td>
+   <td><span class='progress_title'>Join Season</span><br><span class='progress_instruction'>Sign up today to play in the current season. Compete against the best players- Earn fantastic prizes!</span></td>
  </tr>
  <tr>
-   <td class='progress_title'>Subscribe to Premium</td>
+   <td>asdfasdf</td>
  </tr>
  <tr>
-   <td class='progress_instruction'>Subscribe to our premium cash pool. Compete for cash prizes!</td>
+   <td><span class='progress_title'>Subscribe to Premium</span><br><span class='progress_instruction'>Subscribe to our premium cash pool. Compete for cash prizes!</span></td>
  </tr>
  <tr>
-   <td class='progress_title'>Create a Team</td>
+   <td>asdf</td>
  </tr>
  <tr>
-   <td class='progress_instruction'>Setup a new team </td>
+   <td><span class='progress_title'>Create a Team</span><br><span class='progress_instruction'>Setup a new team in our league</span></td>
  </tr>
  <tr>
-   <td class='progress_title'>Join a Team</td>
+   <td></td>
  </tr>
  <tr>
-   <td class='progress_instruction'>Join an existing team. You'll need your teams password.</td>
+   <td class='progress_instruction'><span class='progress_title'>Join a Team</span><br><span class='progress_instruction'>Join an existing team in our league. You'll need your team's password to gain access.</span></td>
  </tr>
 </table>
 @stop
