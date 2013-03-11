@@ -40,6 +40,7 @@ class NewsController extends WidgetController {
       $has_image = false;
     }
     $values['has_image'] = $has_image;
+    $values['posted_by'] = Auth::user()->getKey();
 		$news = News::create($values);
     if($has_image){
       $this->moveImage(Input::file('news_image'),'news',$news->id);
