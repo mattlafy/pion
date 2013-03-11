@@ -33,7 +33,7 @@
    <td></td>
  </tr>
  <tr>
-   <td class='progress_instruction'><span class='progress_title'>Join a Team</span><br><span class='progress_instruction'>Join an existing team in our league. You'll need your team's password to gain access.</span></td>
+   <td><span class='progress_title'>Join a Team</span><br><span class='progress_instruction'>Join an existing team in our league. You'll need your team's password to gain access.</span></td>
  </tr>
 </table>
 @stop
