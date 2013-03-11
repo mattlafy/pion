@@ -1,6 +1,6 @@
 <?php
 
-class RulesController extends BaseController {
+class RulesController extends WidgetController {
 	protected $layout = 'Layouts.master';
 
 	/**

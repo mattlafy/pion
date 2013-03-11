@@ -1,6 +1,6 @@
 <?php
 
-class MapController extends BaseController {
+class MapController extends WidgetController {
 	protected $layout = 'Layouts.master';
 
 	/**
