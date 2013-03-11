@@ -32,7 +32,7 @@ class NewsController extends WidgetController {
 	 */
 	public function store()
 	{
-		$news = News::create(Input::all());
+		$news = News::create(Input::except('id','_token'));
     return Redirect::to('NewsController@show', array($news->id));
   }
 
