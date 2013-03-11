@@ -27,7 +27,7 @@
    <td>asdf</td>
  </tr>
  <tr>
-   <td><div class='progress_title'>Create a Team</div<div class='progress_instruction'>Setup a new team in our league</div></td>
+   <td><div class='progress_title'>Create a Team</div><div class='progress_instruction'>Setup a new team in our league</div></td>
  </tr>
  <tr>
    <td></td>
