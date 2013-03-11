@@ -32,13 +32,13 @@
 			<div class="seperator"></div>
 			<nav class="nav-right">
 				<div class="seperator"></div>
-{{@if(Auth::check())}}
+@if(Auth::check())
         <div id="nav-user" class="">Hello {{Auth::user()->alias}}</div>
-{{@else}}
+@else
         <div id="nav-login" class="@yield('login_tab')"><a href="/l4/login">LOGIN</a></div>
 				<div class="seperator"></div>
 				<div id="nav-register" class="@yield('register_tab')"><a href="/l4/player/create">REGISTER</a></div>
-{{@endif}}
+@endif
 				<div class="seperator"></div>
 			</nav>
 		</div>
