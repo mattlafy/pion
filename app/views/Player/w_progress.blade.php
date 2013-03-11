@@ -3,7 +3,7 @@
 <table id='progress_widget'>
   
  <tr>
-   <td rowspan='2'>Welcome to Pion Esports StarLeague</td>
+   <td colspan='2'>Welcome to Pion Esports StarLeague</td>
    <td>Follow these steps to begin competing today!</td>
  </tr>
  <tr>
