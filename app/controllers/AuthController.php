@@ -8,15 +8,15 @@ class AuthController extends WidgetController {
   }
   public function check(){
     if(Auth::validate(Input::only('email', 'password'))){
-      Redirect::to('/');
+      return Redirect::to('/');
     }
     else{
-      Redirect::to('/login');
+      return Redirect::to('/login');
     }
   }
   public function logout(){
     Auth::logout();
-    Redirect::to('/');
+    return Redirect::to('/');
   }
 }
 ?>
