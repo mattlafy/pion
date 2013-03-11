@@ -419,9 +419,25 @@ table.widget_table tr td{
 .suggested_size{
   color:#cecfce;
   text-align:left;
-  font-size:10px;
+  font-size:12px;
 }
 #reg_form{
   font-size:14px;
   font-weight:600;
+}
+.registration_form textarea{
+  width:15px;
+}
+
+.registration_form label{
+  width:125px;
+  display:inline-block;
+}
+.important{
+  font-weight:900;
+  font-size:12px;
+  
+}
+.char_code{
+  width:10px;
 }
