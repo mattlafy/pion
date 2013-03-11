@@ -14,5 +14,14 @@ class BaseController extends Controller {
 			$this->layout = View::make($this->layout);
 		}
 	}
-
+  protected function moveImage($file, $type, $id){
+    $root = '';
+    if($file->getMimeType() != 'image/png'){
+      // must convert
+    }
+    
+  }
+  protected function makePng($file){
+    
+  }
 }
