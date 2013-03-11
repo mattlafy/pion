@@ -1,15 +1,11 @@
 @section('widgets')
 @parent
 <h1>Add News</h1>
-
 {{Form::model($news)}}
-{{Form::label('topic', 'Topic')}}
-{{Form::text('topic')}}
-{{Form::label('content', 'Content')}}
-{{Form::textarea('content',null,array('size'=>'20x10'))}}
-{{Form::label('news_image', 'News Image')}}
-{{Form::file('news_image')}}
-{{Form::submit('Post News')}}
+<div>{{Form::label('topic', 'Topic')}} {{Form::text('topic')}}</div>
+<div>{{Form::label('content', 'Content')}} {{Form::textarea('content',null,array('size'=>'20x10'))}}</div>
+<div>{{Form::label('news_image', 'News Image')}} {{Form::file('news_image')}}</div>
+<div>{{Form::submit('Post News')}}</div>
 
 {{--<form action="addnews.php" method="post">
 	<h6>Topic <input type="textarea" name="topic" value="{{$topic}}" /></h6>
