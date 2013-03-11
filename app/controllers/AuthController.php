@@ -8,7 +8,7 @@ class AuthController extends WidgetController {
   }
   public function check(){
     if(Auth::validate(Input::only('email', 'password'))){
-      Redirect::to('/');
+      return Redirect::to('/');
     }
     else{
       return Redirect::to('/login');

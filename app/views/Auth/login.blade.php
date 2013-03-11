@@ -6,6 +6,4 @@
 <div>{{Form::submit('Login')}}</div>
 {{Form::token()}}
 {{Form::close()}}
-
-{{Hash::make('betab2')}}
 @stop
