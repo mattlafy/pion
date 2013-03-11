@@ -7,7 +7,7 @@ class WidgetController extends BaseController {
     $this->layout->nest('widget'.$i++,'Map.list');
     $this->layout->nest('widget'.$i++,'Rules.delete');
     $this->layout->nest('widget'.$i++,'Match.w_list');
-    $this->layout->nest('widget'.$i++,'News.add', array('news'=>News::find(1)));
+
     $this->layout->nest('widget'.$i++,'Player.w_progress');
   }
 }
