@@ -39,7 +39,7 @@
 			</nav>
 		</div>
 		<div id='body-wrapper'>
-			<div id="content">
+			<div id="content-area">
 				@section('content')
         @show
 			</div>
