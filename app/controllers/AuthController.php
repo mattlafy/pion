@@ -1,6 +1,6 @@
 <?php
 
-class MapController extends WidgetController {
+class AuthController extends WidgetController {
   protected $layout = 'Layouts.master';
   
   public function login(){
