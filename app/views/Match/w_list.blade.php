@@ -2,7 +2,7 @@
 @parent
 <h2 class="widget_title">MY UPCOMING MATCHES</h2>
 <table class='widget_table'>
-  <tr class="widget_matches_title">
+  <tr class="widget_table_title">
      <td>Week</td>
      <td>Opponent</td>
      <td>Maps</td>

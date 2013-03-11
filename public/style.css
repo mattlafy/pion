@@ -397,7 +397,7 @@ table.widget_table tr:nth-child(even)>td{
     background-color:#dddddd;
 }
 
-.widget_matches_title>td{
+.widget_table_title>td{
   padding-top:5px;
   height:30px;
   background-image:url(images/navsml.png);
