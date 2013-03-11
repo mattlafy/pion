@@ -109,7 +109,7 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
-
+    'Illuminate\Html\HtmlServiceProvider',
 	),
 
 	/*
@@ -151,6 +151,7 @@ return array(
 		'DB'              => 'Illuminate\Support\Facades\DB',
 		'Eloquent'        => 'Illuminate\Database\Eloquent\Model',
 		'Event'           => 'Illuminate\Support\Facades\Event',
+    'Form'            => 'Illuminate\Support\Facades\Form',
 		'File'            => 'Illuminate\Support\Facades\File',
 		'Hash'            => 'Illuminate\Support\Facades\Hash',
 		'Input'           => 'Illuminate\Support\Facades\Input',
