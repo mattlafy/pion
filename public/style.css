@@ -334,6 +334,7 @@ table tr:first-child td:last-child {
 }
 
 .progress_header{
+  height:30px;
   background-image: linear-gradient(bottom, rgb(172,20,20) 41%, rgb(128,0,0) 71%, rgb(128,0,0) 86%);
   background-image: -o-linear-gradient(bottom, rgb(172,20,20) 41%, rgb(128,0,0) 71%, rgb(128,0,0) 86%);
   background-image: -moz-linear-gradient(bottom, rgb(172,20,20) 41%, rgb(128,0,0) 71%, rgb(128,0,0) 86%);
