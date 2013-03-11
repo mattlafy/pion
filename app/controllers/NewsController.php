@@ -42,7 +42,7 @@ class NewsController extends WidgetController {
     $values['has_image'] = $has_image;
 		$news = News::create($values);
     if($has_image){
-      Input::file('news_image')->move();
+      $this->moveImage(Input::file('news_image'),'news',$news->id);
     }
     return Redirect::to('NewsController@show', array($news->id));
   }

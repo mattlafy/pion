@@ -15,13 +15,14 @@ class BaseController extends Controller {
 		}
 	}
   protected function moveImage($file, $type, $id){
-    $root = '';
+    $destination = 'images/'.$type;
+    $filename = $id.".png";
     if($file->getMimeType() != 'image/png'){
       // must convert
+      imagepng(imagecreatefromstring(file_get_contents($file->getRealPath())), $destination.'/'.$filename);
     }
-    
-  }
-  protected function makePng($file){
-    
+    else{
+      $file->move($destination, $filename);
+    }
   }
 }
