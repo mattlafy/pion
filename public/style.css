@@ -321,3 +321,8 @@ table tr:first-child td:last-child {
     font-size:12px;
     color:#ac1414;
 }
+
+#progress_widget td{
+  border:1px solid red;
+  
+}
