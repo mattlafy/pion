@@ -4,11 +4,11 @@
 <h3>Personal Information</h3>
 <form action="registration.php" method="post">
 	<div id='reg_form'>
-    <div class='name'>First Name: <input type="text" name="first_name" /></div>
-    <div class='name'>Last Name: <input type="text" name="last_name" /></div>
+    First Name: <input type="text" name="first_name" /><br>
+    Last Name: <input type="text" name="last_name" /><br>
  	Alias: <input type="text" name="alias" /><br>
-  Password: <input type="password" name="pwd" />
-  Repeat Password: <input type="password" name="pwd2" />
+  Password: <input type="password" name="pwd" /><br>
+  Repeat Password: <input type="password" name="pwd2" /><br>
 	Profile Picture: <input type="file" name="profile_picture"> <span class='suggested_size'>Suggested Size 168x188</span>
 	Date of Birth:(year.mm.dd) <input type="text" name="year" />
 		<input type="text" name="month" />
