@@ -21,7 +21,6 @@ Route::get('/', function()
 Route::get('/', 'NewsController@index');
 Route::any('player/junk/player.html', 'PlayerController@index');
 Route::any('standings', 'PlayerController@standings');
-Route::get('join', )
 
 Route::resource('player', 'PlayerController');
 Route::resource('team', 'TeamController');
