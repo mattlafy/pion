@@ -20,7 +20,7 @@ class Player extends Eloquent implements UserInterface, RemindableInterface {
     return $diff->y;
   }
   public function seasons(){
-    return $this->belongsToMany('Season')->orderBy('start_date','desc');
+    return $this->belongsToMany('Season')->all()->orderBy('start_date','desc');
   }
   
   
