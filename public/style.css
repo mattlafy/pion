@@ -326,7 +326,7 @@ table tr:first-child td:last-child {
   border:1px solid red;
   
 }
-.week_title{
+.progress_title{
     font-weight:900;
     text-transform:uppercase;
     font-size:14px;
