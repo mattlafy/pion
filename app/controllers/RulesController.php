@@ -10,7 +10,7 @@ class RulesController extends WidgetController {
 	 */
 	public function index()
 	{
-            $this->layout->content = View::make('Rules.list', array('rules' => Rule::orderBy('number','asc')));
+            $this->layout->content = View::make('Rules.list', array('rules' => Rule::orderBy('number','asc')->get()));
 //
 	}
 
