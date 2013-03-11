@@ -6,7 +6,8 @@
 <div>{{Form::label('content', 'Content')}} {{Form::textarea('content',null,array('size'=>'20x10'))}}</div>
 <div>{{Form::label('news_image', 'News Image')}} {{Form::file('news_image')}}</div>
 <div>{{Form::submit('Post News')}}</div>
-
+{{Form::token()}}
+{{Form::close()}}
 {{--<form action="addnews.php" method="post">
 	<h6>Topic <input type="textarea" name="topic" value="{{$topic}}" /></h6>
 	<h6>Content <textarea name="content">{{$content}}</textarea></h6>
