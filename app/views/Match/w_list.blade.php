@@ -1,8 +1,8 @@
 @section('widgets')
 @parent
 <h2>MY UPCOMING MATCHES</h2>
-<table class='data'>
-  <tr>
+<table id='widget_table'>
+  <tr class="widget_matches_title">
      <td>Week</td>
      <td>Opponent</td>
      <td>Maps</td>
