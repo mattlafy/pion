@@ -40,5 +40,8 @@
    <td rowspan='2'></td>
    <td><div class='progress_title'>Join a Team</div><div class='progress_instruction'>Join an existing team in our league. You'll need your team's password to gain access.</div></td>
  </tr>
+ <tr>
+   <td colspan='2'></td>
+ </tr>
 </table>
 @stop
