@@ -433,3 +433,8 @@ table.widget_table tr td{
   width:125px;
   display:inline-block;
 }
+.important{
+  font-weight:900;
+  font-size:12px;
+  
+}
