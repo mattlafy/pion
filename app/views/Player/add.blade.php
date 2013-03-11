@@ -13,11 +13,12 @@
 	Date of Birth:(year.mm.dd) <input type="text" name="year" />
 		<input type="text" name="month" />
 		<input type="text" name="day" />
-	Country: <select name="country"><option> choose your country</option>
-			@foreach($countries as $c)
-				<option value="{{$c->countryid}}">{{$c->country}}</option>
-			@endforeach
-				</select>
+	Country: 
+  
+  
+  {{Form::select('country', $countries)}}
+  
+  
 	City: <input type="text" name="city" />
   State/Province: <input type="text" name="state" /></div>
 <h3>Starcraft 2 Information</h3>
