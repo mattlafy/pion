@@ -1,6 +1,6 @@
 <?php
 
-class PlayerController extends BaseController {
+class PlayerController extends WidgetController {
 	protected $layout = 'Layouts.master';
 	
 	/**

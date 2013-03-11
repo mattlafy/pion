@@ -1,6 +1,6 @@
 <?php
 
-class TeamController extends BaseController {
+class TeamController extends WidgetController {
 	protected $layout = 'Layouts.master';
 
 	/**

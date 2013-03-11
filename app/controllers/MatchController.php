@@ -1,6 +1,6 @@
 <?php
 
-class MatchController extends BaseController {
+class MatchController extends WidgetController {
 	protected $layout = 'Layouts.master';
 
 	/**

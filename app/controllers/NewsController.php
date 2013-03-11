@@ -1,6 +1,6 @@
 <?php
 
-class NewsController extends BaseController {
+class NewsController extends WidgetController {
 	protected $layout = 'Layouts.master';
 
 	/**
@@ -10,18 +10,9 @@ class NewsController extends BaseController {
 	 */
 	public function index()
 	{
-        $this->layout->content = View::make('News.list', array('news_posts'=> News::all()));
-		
-		
-		
-		
-		
-            $this->layout->nest('widget','Map.delete');
-            $this->layout->nest('widget2','Map.list');
-            $this->layout->nest('widget3','Rules.delete');
-            $this->layout->nest('widget4','Match.w_list');
-            $this->layout->nest('widget5','News.add', array('topic'=>'some topic','content'=>'some content'));
-	}
+    $this->layout->content = View::make('News.list', array('news_posts'=> News::all()));
+    $this->showWidgets();
+  }
 
 	/**
 	 * Show the form for creating a new resource.
