@@ -9,5 +9,5 @@
 {{Form::hidden('id')}}
 {{Form::token()}}
 {{Form::close()}}
-{{hash_algos()}}
+{{print_r(hash_algos())}}
 @stop
