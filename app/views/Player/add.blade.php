@@ -10,11 +10,11 @@
     {{Form::label('email', 'Email:')}} {{Form::text('email')}}<br>
     {{Form::label('password', 'Password:')}} {{Form::password('password')}}<br>
     {{Form::label('password_repeat', 'Repeat Password:')}} {{Form::password('password_repeat')}}<br>
-    {{Form::label('profile_picture', 'Profile Picture:')}}{{Form::file('profile_picture')}}<span class='suggested_size'>Suggested Size 168x188</span><br>
-    {{Form::label('date_of_birth', 'Date of Birth:')}}{{Form::text('date_of_birth')}}<span class='suggested_size'>year.mm.dd</span><br>
-    {{Form::label('countries', 'Country:')}}{{Form::select('country', $countries)}}<br>
+    {{Form::label('profile_picture', 'Profile Picture:')}} {{Form::file('profile_picture')}}<span class='suggested_size'>Suggested Size 168x188</span><br>
+    {{Form::label('date_of_birth', 'Date of Birth:')}} {{Form::text('date_of_birth')}}<span class='suggested_size'>year.mm.dd</span><br>
+    {{Form::label('countries', 'Country:')}} {{Form::select('country', $countries)}}<br>
     {{Form::label('city', 'City:')}} {{Form::text('city')}}<br>
-    {{Form::label('state_province', 'State/Province:')}}{{Form::text('state_province')}}<br>
+    {{Form::label('state_province', 'State/Province:')}} {{Form::text('state_province')}}<br>
 	
   
 <h3>Starcraft 2 Information</h3>
