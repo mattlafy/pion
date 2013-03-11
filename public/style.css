@@ -386,3 +386,15 @@ table.data tr:first-child td:last-child {
 #progress_widget .completed{
   background-color:#e7e7e7;
 }
+
+#widget_table{
+  
+}
+
+#widget_table .widget_matches_title{
+  height:35px;
+  background-image:url(images/navsml.png);
+  font-size:14px;
+  font-weight:600;
+  
+}
