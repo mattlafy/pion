@@ -418,4 +418,6 @@ table.widget_table tr td{
 }
 .suggested_size{
   color:#cecfce;
+  text-align:left;
+  font-size:10px;
 }
