@@ -8,7 +8,7 @@
  	<p>Alias: <input type="text" name="alias" /></p>
 	<p>Password: <input type="password" name="pwd" /></p>
         <p>Repeat Password: <input type="password" name="pwd2" /></p>
-	<p>Profile Picture: <input type="file" name="profile_picture"> Suggested Size here</p>
+	<p>Profile Picture: <input type="file" name="profile_picture"> <span class='player_search'>Suggested Size 168x188</span>
 	<p>Date of Birth:(year.mm.dd) <input type="text" name="year" />
 		<input type="text" name="month" />
 		<input type="text" name="day" /></p>
