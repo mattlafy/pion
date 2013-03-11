@@ -411,3 +411,6 @@ table.widget_table tr:nth-child(even)>td{
 table.widget_table tr td{
     font-size:12px;
 }
+#wiget_matches .widget_matches_content{
+  font-size:12px;
+}
