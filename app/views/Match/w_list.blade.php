@@ -1,6 +1,6 @@
 @section('widgets')
 @parent
-<h4>my upcoming matches</h4>
+<h2>my upcoming matches</h2>
 <table class='data'>
   <tr>
      <td>Week</td>
