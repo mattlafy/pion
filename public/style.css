@@ -354,3 +354,8 @@ table tr:first-child td:last-child {
 	color-stop(0.86, rgb(128,0,0))
 );
 }
+
+.progress_header2{
+  font-size:12px;
+  color:white;
+}
