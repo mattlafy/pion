@@ -408,3 +408,6 @@ table.widget_table tr:nth-child(odd)>td{
 table.widget_table tr:nth-child(even)>td{
     background-color:#dddddd;
 }
+table.widget_table tr td{
+    font-size:12px;
+}
