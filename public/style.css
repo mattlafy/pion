@@ -396,7 +396,7 @@ table.data tr:first-child td:last-child {
   background-image:url(images/navsml.png);
   font-size:14px;
   font-weight:600;
-  
+  text-align:center;
 }
 .widget_title{
   padding-bottom:0px;
