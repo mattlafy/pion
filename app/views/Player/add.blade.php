@@ -2,10 +2,10 @@
 @section('content')
 <h1>User Registration</h1>
 <h3>Personal Information</h3>
-<form action="registration.php" method="post">
-	<div id='reg_form'>
-    First Name: <input type="text" name="first_name" /><br>
-    Last Name: <input type="text" name="last_name" /><br>
+{{Form::model($player, array('action'=>'PlayerController@store','files'=>true))}}
+	<div id='reg_form' class='registration_form'>
+    {{Form::label('first_name', 'First Name:')}} {{Form::text('first_name')}}<br>
+    {{Form::label('last_name', 'Last Name:')}} {{Form::text('last_name')}}<br>
  	Alias: <input type="text" name="alias" /><br>
   Password: <input type="password" name="pwd" /><br>
   Repeat Password: <input type="password" name="pwd2" /><br>
