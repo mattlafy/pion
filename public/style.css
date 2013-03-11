@@ -428,3 +428,8 @@ table.widget_table tr td{
 .registration_form textarea{
   width:15px;
 }
+
+.registration_form label{
+  width:200px;
+  
+}
