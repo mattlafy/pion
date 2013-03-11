@@ -388,7 +388,7 @@ table.data tr:first-child td:last-child {
 }
 
 #widget_table{
-  
+  width:378px;
 }
 
 #widget_table .widget_matches_title{
@@ -396,7 +396,7 @@ table.data tr:first-child td:last-child {
   background-image:url(images/navsml.png);
   font-size:14px;
   font-weight:600;
-  width:378px;
+  
 }
 .widget_title{
   padding-bottom:0px;
