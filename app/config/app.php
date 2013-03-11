@@ -65,8 +65,7 @@ return array(
 	|
 	*/
 
-	//'key' => 'YourSecretKey!!!',
-  'key' => hash('salsa20','hamburgers'),
+	'key' => 'hamburgers',
 
 	/*
 	|--------------------------------------------------------------------------
