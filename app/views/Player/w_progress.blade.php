@@ -9,7 +9,7 @@
    <td colspan='2'></td>
  </tr>
  <tr>
-   <td rowspan='2'></td>
+   <td rowspan='2'><input type="checkbox" disabled/></td>
    <td><div class='progress_title'>Register</div><div class='progress_instruction'>Or sign in to an existing account by clicking Login above</div></td>
  </tr>
  <tr>
