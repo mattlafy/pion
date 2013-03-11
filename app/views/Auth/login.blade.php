@@ -1,3 +1,4 @@
+@section('login_tab') selected @stop
 @section('content')
 <h1>Login</h1>
 {{Form::open(array('action'=>'AuthController@check'))}}
