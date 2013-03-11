@@ -36,8 +36,8 @@ class DatabaseSeeder extends Seeder {
     Player::create(array(
       'is_admin'=>true,
       'alias'=>'Dicco',
-      'email'=>'1',
-      'password'=>'1',
+      'email'=>'dicco@pion.com',
+      'password'=>Hash::make('test'),
       'first_name'=>'1',
       'last_name'=>'1',
       'race'=>'zerg', //'protoss', 'terran', 'zerg'
@@ -53,8 +53,8 @@ class DatabaseSeeder extends Seeder {
     Player::create(array(
       'is_admin'=>true,
       'alias'=>'Lafy',
-      'email'=>'1',
-      'password'=>'1',
+      'email'=>'lafy@pion.com',
+      'password'=>Hash::make('betab2'),
       'first_name'=>'1',
       'last_name'=>'1',
       'race'=>'terran', //'protoss', 'terran', 'zerg'

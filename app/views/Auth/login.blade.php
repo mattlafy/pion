@@ -6,4 +6,6 @@
 <div>{{Form::submit('Login')}}</div>
 {{Form::token()}}
 {{Form::close()}}
+
+{{Hash::make('test')}}
 @stop
