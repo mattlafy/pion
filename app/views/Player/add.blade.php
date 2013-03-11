@@ -14,7 +14,7 @@
     {{Form::label('date_of_birth', 'Date of Birth:')}} {{Form::text('date_of_birth')}}<span class='suggested_size'>year.mm.dd</span><br>
     {{Form::label('countries', 'Country:')}} {{Form::select('country', $countries)}}<br>
     {{Form::label('city', 'City:')}} {{Form::text('city')}}<br>
-    {{Form::label('state_province', 'State/Province:')}} {{Form::text('state_province')}}<br><br>
+    {{Form::label('state_province', 'State/Province:')}} {{Form::text('state_province')}}<br><br><br>
 	
   
 <h3>Starcraft 2 Information</h3>
