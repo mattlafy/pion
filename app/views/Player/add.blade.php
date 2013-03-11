@@ -6,10 +6,10 @@
 	<div id='reg_form' class='registration_form'>
     {{Form::label('first_name', 'First Name:')}} {{Form::text('first_name')}}<br>
     {{Form::label('last_name', 'Last Name:')}} {{Form::text('last_name')}}<br>
-    {{Form::label('alias', 'Alias:')}} {{Form::text('alias')}}<span class='suggested_size'>Will be your username on the site</span>
-    {{Form::label('email', 'Email')}} {{Form::text('email')}}
-    {{Form::label('password', 'Password')}} {{Form::password('password')}}
-    {{Form::label('password_repeat', 'Repeat Password')}} {{Form::password('password_repeat')}}
+    {{Form::label('alias', 'Alias:')}} {{Form::text('alias')}}<span class='suggested_size'>Will be your username on the site</span><br>
+    {{Form::label('email', 'Email')}} {{Form::text('email')}}<br>
+    {{Form::label('password', 'Password')}} {{Form::password('password')}}<br>
+    {{Form::label('password_repeat', 'Repeat Password')}} {{Form::password('password_repeat')}}<br>
 	Profile Picture: <input type="file" name="profile_picture"> <span class='suggested_size'>Suggested Size 168x188</span>
 	Date of Birth:(year.mm.dd) <input type="text" name="year" />
 		<input type="text" name="month" />
