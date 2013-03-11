@@ -1,4 +1,4 @@
-@section('widgets')
+@section('content')
 @parent
 <h1>Add News</h1>
 {{Form::model($news)}}
