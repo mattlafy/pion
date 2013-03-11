@@ -5,10 +5,7 @@
  <tr>
    <td class='progress_header'><span class='progress_header_one'>Welcome to Pion Esports StarLeague</span><br><span class='progress_header_two'>Follow these steps to begin competing today!</span></td>
  </tr>
- <tr>
-   <td class='progress_information'>Follow these steps to begin competing today!</td>
- </tr>
- <tr>
+  <tr>
    <td class='progress_title'>Register</td>
  </tr>
  <tr>
