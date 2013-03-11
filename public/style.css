@@ -425,3 +425,6 @@ table.widget_table tr td{
   font-size:14px;
   font-weight:600;
 }
+.registration_form textarea{
+  width:15px;
+}
