@@ -7,6 +7,12 @@ class WidgetController extends BaseController {
     $this->layout->nest('widget'.$i++,'Match.w_list');
 
     $progress = array();
+    $progress['register'] = 'pending';
+    $progress['season'] = 'pending';
+    $progress['premium'] = 'pending';
+    $progress['create_team'] = 'pending';
+    $progress['join_team'] = 'pending';
+    
     if(Auth::check()){
       $progress['register'] = 'completed';
       $user = Auth::user();
@@ -33,7 +39,7 @@ class WidgetController extends BaseController {
     else{
       $progress['register'] = 'in_progress';
     }
-    $this->layout->nest('widget'.$i++,'Player.w_progress', array('progress' => $progress));
+    $this->layout->nest('widget'.$i++,'Player.w_progress', array('progress' => (object)$progress));
   }
 }
 
