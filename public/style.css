@@ -383,7 +383,7 @@ table.data tr:first-child td:last-child {
   background-color:#ffda2a;
 }
 
-#progress_widget .completed{
+#progress_widget .checked{
   background-color:#e7e7e7;
 }
 

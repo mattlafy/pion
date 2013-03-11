@@ -14,12 +14,12 @@ class WidgetController extends BaseController {
     $progress['join_team'] = 'pending';
     
     if(Auth::check()){
-      $progress['register'] = 'completed';
+      $progress['register'] = 'checked';
       $user = Auth::user();
       if($user->seasons()->first() == Season::orderBy('start_date', 'desc')->first()){
-        $progress['season'] = 'completed';
+        $progress['season'] = 'checked';
         if($user->seasons()->first()->pivot->is_premium){
-          $progress['premium'] = 'completed';
+          $progress['premium'] = 'checked';
         }
         else{
           $progress['premium'] = 'in_progress';
@@ -29,8 +29,8 @@ class WidgetController extends BaseController {
         $progress['season'] = 'in_progress';
       }
       if($user->team != null){
-        $progress['create_team'] = 'completed';
-        $progress['join_team'] = 'completed';
+        $progress['create_team'] = 'checked';
+        $progress['join_team'] = 'checked';
       }
       elseif($progress['season'] != 'in_progress' && $progress['premium'] != 'in_progress'){
         $progress['create_team'] = 'in_progress';
