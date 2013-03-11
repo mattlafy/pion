@@ -1,7 +1,7 @@
 @section('content')
 @parent
 <h1>Add News</h1>
-{{Form::model($news, array('action'=>'store'))}}
+{{Form::model($news, array('action'=>'NewsController@store'))}}
 <div>{{Form::label('topic', 'Topic')}} {{Form::text('topic')}}</div>
 <div>{{Form::label('content', 'Content')}} {{Form::textarea('content',null,array('size'=>'20x10'))}}</div>
 <div>{{Form::label('news_image', 'News Image')}} {{Form::file('news_image')}}</div>
