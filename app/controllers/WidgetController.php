@@ -10,11 +10,17 @@ class WidgetController extends BaseController {
     if(Auth::check()){
       $progress['register'] = true;
       $user = Auth::user();
+      if($user->seasons()->first() == Season::all()->orderBy('start_date', 'desc')->first()){
+        $progress['season'] = true;
+        if($user->seasons()->first()->pivot->is_premium){
+          $progress['premium'] = true;
+        }
+      }
       if($user->team != null){
         $progress['team'] = true;
       }
     }
-    $this->layout->nest('widget'.$i++,'Player.w_progress', array('progress' => (object)$progress));
+    $this->layout->nest('widget'.$i++,'Player.w_progress', array('progress' => $progress));
   }
 }
 
