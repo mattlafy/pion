@@ -193,12 +193,12 @@ table.data tr:first-child>td{
     color:white;
     padding:4px 20px 4px 20px;
 }
-table tr:first-child td:first-child {
+table.data tr:first-child td:first-child {
     -moz-border-radius-topleft:10px;
     -webkit-border-top-left-radius:10px;
     border-top-left-radius:10px
 }
-table tr:first-child td:last-child {
+table.data tr:first-child td:last-child {
     -moz-border-radius-topright:10px;
     -webkit-border-top-right-radius:10px;
     border-top-right-radius:10px
