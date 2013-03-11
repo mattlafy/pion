@@ -370,3 +370,14 @@ table.data tr:first-child td:last-child {
   padding-left:20px;
 
 }
+
+#progress_widget .pending{
+  background-color:#ffea88;
+}
+#progress_widget .in_progress{
+  background-color:#ffda2a;
+}
+
+#progress_widget .completed{
+  background-color:#e7e7e7;
+}
