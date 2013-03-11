@@ -431,5 +431,5 @@ table.widget_table tr td{
 
 .registration_form label{
   width:200px;
-  
+  display:inline-block;
 }
