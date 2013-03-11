@@ -335,18 +335,19 @@ table.data tr:first-child td:last-child {
 }
 
 #progress_widget .progress_header{
+  height:25px;
   background-image: linear-gradient(bottom, rgb(172,20,20) 41%, rgb(128,0,0) 71%, rgb(128,0,0) 86%);
   background-image: -o-linear-gradient(bottom, rgb(172,20,20) 41%, rgb(128,0,0) 71%, rgb(128,0,0) 86%);
   background-image: -moz-linear-gradient(bottom, rgb(172,20,20) 41%, rgb(128,0,0) 71%, rgb(128,0,0) 86%);
   background-image: -webkit-linear-gradient(bottom, rgb(172,20,20) 41%, rgb(128,0,0) 71%, rgb(128,0,0) 86%);
   background-image: -ms-linear-gradient(bottom, rgb(172,20,20) 41%, rgb(128,0,0) 71%, rgb(128,0,0) 86%);
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.41, rgb(172,20,20)), color-stop(0.71, rgb(128,0,0)), color-stop(0.86, rgb(128,0,0))
-
+  
 );
 }
 
 #progress_widget .progress_header_one{
-  height:25px;
+
   font-weight:900;
   text-transform:uppercase;
   font-size:14px;
