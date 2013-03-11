@@ -326,7 +326,7 @@ table.data tr:first-child td:last-child {
   border:1px solid red;
   
 }
-.progress_title{
+#progress_widget .progress_title{
     font-weight:900;
     text-transform:uppercase;
     font-size:14px;
@@ -334,7 +334,7 @@ table.data tr:first-child td:last-child {
     padding-left:20px;
 }
 
-.progress_header{
+#progress_widget .progress_header{
   background-image: linear-gradient(bottom, rgb(172,20,20) 41%, rgb(128,0,0) 71%, rgb(128,0,0) 86%);
   background-image: -o-linear-gradient(bottom, rgb(172,20,20) 41%, rgb(128,0,0) 71%, rgb(128,0,0) 86%);
   background-image: -moz-linear-gradient(bottom, rgb(172,20,20) 41%, rgb(128,0,0) 71%, rgb(128,0,0) 86%);
@@ -345,7 +345,7 @@ table.data tr:first-child td:last-child {
 );
 }
 
-.progress_header_one{
+#progress_widget .progress_header_one{
   height:25px;
   font-weight:900;
   text-transform:uppercase;
@@ -356,7 +356,7 @@ table.data tr:first-child td:last-child {
   
 }
 
-.progress_header_two{
+#progress_widget .progress_header_two{
   font-size:12px;
   color:#e7e7e7;
   padding-left:20px;
@@ -364,7 +364,7 @@ table.data tr:first-child td:last-child {
   
 }
 
-.progress_instruction{
+#progress_widget .progress_instruction{
   font-size:12px;
   color:black;
   padding-left:20px;
