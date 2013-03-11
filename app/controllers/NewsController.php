@@ -32,8 +32,9 @@ class NewsController extends WidgetController {
 	 */
 	public function store()
 	{
-		//
-	}
+		$news = News::create(Input::all());
+    return Redirect::to('NewsController@show', array($news->id));
+  }
 
 	/**
 	 * Display the specified resource.
