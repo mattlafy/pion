@@ -13,12 +13,12 @@ class AuthController extends WidgetController {
       Redirect::to('/');
     }
     else{
-      Redirect::to('/login');
+      return Redirect::to('/login');
     }
   }
   public function logout(){
     Auth::logout();
-    Redirect::to('/');
+    return Redirect::to('/');
   }
 }
 ?>
