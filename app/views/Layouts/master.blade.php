@@ -33,6 +33,8 @@
 			<nav class="nav-right">
 				<div class="seperator"></div>
 @if(Auth::check())
+        <div id="nav-login" class="@yield('login_tab')"><a href="/l4/logout">LOGOUT</a></div>
+				<div class="seperator"></div>
         <div id="nav-user" class="">Hello {{Auth::user()->alias}}</div>
 @else
         <div id="nav-login" class="@yield('login_tab')"><a href="/l4/login">LOGIN</a></div>
