@@ -192,6 +192,7 @@ table.data tr:first-child>td{
     background-color:#181715;
      background-image:url(images/navsml.png);
     color:#181715;
+    font-weight:900;
     padding:4px 20px 4px 20px;
 }
 table.data tr:first-child td:first-child {
