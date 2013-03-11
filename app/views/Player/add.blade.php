@@ -3,15 +3,16 @@
 <h1>User Registration</h1>
 <h3>Personal Information</h3>
 <form action="registration.php" method="post">
-	<div class='reg_form'>First Name: <input type="text" name="first_name" />
-	Last Name: <input type="text" name="last_name" />
- 	Alias: <input type="text" name="alias" />
+	<div id='reg_form'>
+    <div class='name'>First Name: <input type="text" name="first_name" /></div>
+    <div class='name'>Last Name: <input type="text" name="last_name" /></div>
+ 	Alias: <input type="text" name="alias" /><br>
   Password: <input type="password" name="pwd" />
   Repeat Password: <input type="password" name="pwd2" />
 	Profile Picture: <input type="file" name="profile_picture"> <span class='suggested_size'>Suggested Size 168x188</span>
 	Date of Birth:(year.mm.dd) <input type="text" name="year" />
 		<input type="text" name="month" />
-		<input type="text" name="day" /></p>
+		<input type="text" name="day" />
 	Country: <select name="country"><option> choose your country</option>
 			@foreach($countries as $c)
 				<option value="{{$c->countryid}}">{{$c->country}}</option>
@@ -26,7 +27,7 @@
 <option value="zerg">Zerg</option>
 <option value="protoss">Protoss</option>
 <option value="terran">Terran</option>
-</select></p>
+</select>
 
 	
 <p><input type="submit" value="Register Now!" name="submit"/></p>
