@@ -9,5 +9,4 @@
 {{Form::hidden('id')}}
 {{Form::token()}}
 {{Form::close()}}
-{{hash('salsa20','some junk')}}
 @stop
