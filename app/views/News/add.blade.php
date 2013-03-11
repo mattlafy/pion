@@ -9,5 +9,5 @@
 {{Form::hidden('id')}}
 {{Form::token()}}
 {{Form::close()}}
-{{getcwd()}}
+{{print_r(hash_algos())}}
 @stop
