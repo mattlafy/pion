@@ -10,7 +10,7 @@ class NewsController extends WidgetController {
 	 */
 	public function index()
 	{
-    $this->layout->content = View::make('News.list', array('news_posts'=> News::all()));
+    $this->layout->content = View::make('News.list', array('news_posts'=> News::orderBy('create_at', 'desc')));
     $this->showWidgets();
   }
 
