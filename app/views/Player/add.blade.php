@@ -1,6 +1,6 @@
 @section('register_tab') selected @stop
 @section('content')
-<h1>User Registration</h1>
+<h1>User Registration</h1><br>
 <h3>Personal Information</h3>
 {{Form::model($player, array('action'=>'PlayerController@store','files'=>true))}}
 	<div id='reg_form' class='registration_form'>
@@ -14,7 +14,7 @@
     {{Form::label('date_of_birth', 'Date of Birth:')}} {{Form::text('date_of_birth')}}<span class='suggested_size'>year.mm.dd</span><br>
     {{Form::label('countries', 'Country:')}} {{Form::select('country', $countries)}}<br>
     {{Form::label('city', 'City:')}} {{Form::text('city')}}<br>
-    {{Form::label('state_province', 'State/Province:')}} {{Form::text('state_province')}}<br>
+    {{Form::label('state_province', 'State/Province:')}} {{Form::text('state_province')}}<br><br>
 	
   
 <h3>Starcraft 2 Information</h3>
