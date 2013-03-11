@@ -6,7 +6,7 @@
 {{Form::label('topic', 'Topic')}}
 {{Form::text('topic')}}
 {{Form::label('content', 'Content')}}
-{{Form::textarea('content')}}
+{{Form::textarea('content',null,array('cols'=>20))}}
 {{Form::label('news_image', 'News Image')}}
 {{Form::file('news_image')}}
 {{Form::submit('Post News')}}
