@@ -387,11 +387,11 @@ table.data tr:first-child td:last-child {
   background-color:#e7e7e7;
 }
 
-#widget_table{
+.widget_table{
   width:378px;
 }
 
-#widget_table .widget_matches_title{
+.widget_matches_title{
   height:35px;
   background-image:url(images/navsml.png);
   font-size:14px;
@@ -411,6 +411,6 @@ table.widget_table tr:nth-child(even)>td{
 table.widget_table tr td{
     font-size:12px;
 }
-#wiget_matches .widget_matches_content{
+.widget_matches_content{
   font-size:12px;
 }
