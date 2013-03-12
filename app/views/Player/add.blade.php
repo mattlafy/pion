@@ -18,16 +18,10 @@
 	
   
 <h3>Starcraft 2 Information</h3>
-{{Form::label('sc2_alias', 'Character Code:')}} {{Form::text('sc2_alias')}}#<span class='char_code'>{{Form::text('char_code')}}</span><br><span class='important'>Find your Character code by hovering your mouse over your character portrait on battle.net, Example: Name#999</span><br>
-	
-	Race: <select name="race">
-<option>Choose a race</option>
-<option value="zerg">Zerg</option>
-<option value="protoss">Protoss</option>
-<option value="terran">Terran</option>
-</select>
-	
-<p><input type="submit" value="Register Now!" name="submit"/></p>
+{{Form::label('character_name', 'Character Code:')}} {{Form::text('character_name')}}#<span class='character_code'>{{Form::text('character_code')}}</span><br><span class='important'>Find your Character code by hovering your mouse over your character portrait on battle.net, Example: Name#999</span><br>
+{{Form::label('race', 'Race:'}} {Form::select('race', array('zerg'=>'Zerg', 'protoss'=>'Protoss', 'terran'=>'Terran'));	
+
+<input type="submit" value="Register Now!" name="submit"/></p>
   </div>
 {{Form::close()}}
 @stop
